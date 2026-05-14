@@ -1,3 +1,6 @@
+# 独立Gitリポジトリ（サブモジュール扱いになるため除外）
+app/public/calc/
+
 # WordPress コア（変更しないため除外）
 app/public/wp-admin/
 app/public/wp-includes/
