@@ -1,0 +1,468 @@
+# Changelog
+
+## 2.5.1 _(2025-12-02)_
+
+### Highlights:
+
+A bugfix release to address the overzealous encoding of some valid CSS characters introduced in v2.5.
+
+### Details:
+
+* Fix: Escape only the minimum of characters so that valid CSS characters don't get escaped. Props kevinvanrijn.
+* New: Add `.gitattributes` file to exclude files from Github packaging. Props kevinvanrijn.
+* Change: Note compatibility through WP 6.9+
+
+## 2.5 _(2025-03-29)_
+
+### Highlights:
+
+This recommended long overdue release adds a new filter for fine-grained control of whether CSS should be output or not, updates the plugin framework to the most current version (for hardening and miscellaneous improvements), prevents translations from containing unintended markup, notes compatibility through WP 6.8+ and PHP 8.3+, drops compatibility with versions of WP older than 5.5, adds DEVELOPER-DOCS.md, and removes unit tests from release packaging, and more.
+
+### Details:
+
+* New: Add `c2c_add_admin_css_disable_css` filter to override if CSS defined via this plugin should be output or not
+* New: Add `is_recovery_mode_enabled()` to determine is recovery mode is enabled
+* Change: Only support query parameter method of enabling recovery mode if current user can configure plugin settings
+* Change: Display the files setting help text as a list rather than a paragraph
+* Change: Check specifically if recovery mode is enabled before displaying admin notice that recovery mode is enabled
+* Change: Explicitly state the plugin name in the recovery mode admin notice to avoid ambiguity
+* Change: Switch use of `parse_url()` to `wp_parse_url()`
+* Change: Escape output of all translated strings
+* Change: Use instance method invocation instead of a deprecated static method invocation
+* Change: Convert 'input_attributes' value of config items from a string to an array
+* Change: Add translator comments for a pair of strings with placeholders that didn't have one
+* New: Add DEVELOPER-DOCS.md and move hooks documentation into it
+* Change: Update plugin framework to 068
+    * 068:
+    * Change: Discontinue unnecessary explicit loading of textdomain
+    * Change: Ignore a PHPCS warning that doesn't apply
+    * Change: Minor code reformatting
+    * Change: Note compatibility through WP 6.8+
+    * Change: Update copyright date (2025)
+    * Unit tests:
+        * Change: Generify unit tests to centralize per-plugin configuration to the top of the test class
+        * Change: Define method return types for PHP 8+ compatibility
+        * New: Add some header documentation
+    * 067:
+    * Breaking: Require config attribute 'input_attributes' to be an array
+    * Hardening: Treat input attributes as array and escape each element before output
+    * Change: Ensure config attribute values are of the same datatype as their defaults
+    * Change: Simplify `form_action_url()` to avoid using a server global
+    * Change: Use `form_action_url()` in `plugin_action_links()` rather than duplicating its functionality
+    * Change: Escape output of all translated strings
+    * Change: Make `get_hook()` public rather than protected
+    * Change: Explicitly declare object variables rather than doing so dynamically
+    * Change: Convert `register_filters()` to an abstract declaration
+    * Change: Use double quotes for attribute of paragraph for setting description
+    * Change: Prevent unwarranted PHPCS complaints about nonces
+    * Change: Improve function documentation
+    * Change: Adjust function documentation formatting to align with WP core
+    * Change: Note compatibility through WP 6.5+
+    * Change: Drop compatibility with version of WP older than 5.5
+    * Change: Update copyright date (2024)
+    * 066:
+    * New: Add customization of capability needed to manage plugin settings (via new filter {plugin_prefix}_manage_options_capability)
+    * Change: Add styles for nested lists within settings descriptions
+    * Change: Note compatibility through WP 6.3+
+    * 065:
+    * New: Add support for 'inline_help' setting configuration option
+    * New: Add support for 'raw_help' setting configuration option
+    * New: Add support for use of lists within settings descriptions
+    * Change: Add an 'id' attribute to settings form
+    * Change: Add styles for disabled input text fields and inline setting help notices
+    * Change: Support 'number' input by assigning 'small-text' class
+    * Change: Tweak styling for settings page footer
+    * Change: Note compatibility through WP 6.2+
+    * Change: Update copyright date (2023)
+    * 064:
+    * New: For checkbox settings, support a 'more_help' config option for defining help text to appear below checkbox and its label
+    * Fix: Fix URL for plugin listing donate link
+    * Change: Store donation URL as object variable
+    * Change: Update strings used for settings page donation link
+* Change: Ignore some PHPCS checks that don't apply
+* Change: Update and improve long description and numerous FAQ entries
+* Change: Note compatibility through WP 6.8+
+* Change: Note compatibility through PHP 8.3+
+* Change: Drop compatibility with version of WP older than 5.5
+* Change: Tweak installation instruction
+* New: Add `.gitignore` file
+* Unit tests:
+    * Allow tests to run against current versions of WordPress
+    * New: Add `composer.json` for PHPUnit Polyfill dependency
+    * Change: Prevent PHP warnings due to missing core-related generated files
+    * New: Add tests to verify filtered values output nothing when empty
+    * New: Add test to check that the appropriate number of framework strings are translatable
+    * New: Add tests for `help_tabs_content()`
+    * Change: In bootstrap, add backcompat for PHPUnit pre-v6.0
+    * Fix: Update tests to handle deprecation of core's `print_inline_script()`
+    * Change: Explicitly define return types for overridden methods
+    * Change: Use `assertStringNotContainsString()` instead of `assertNotContains()`
+    * Change: Use `assertStringContainsString()` instead of `assertContains()`
+* Change: Update copyright date (2025)
+* Change: Reduce number of tags defined in readme.txt
+* Change: Remove development and testing related files from release packaging
+
+## 2.0.1 _(2021-05-30)_
+
+### Highlights:
+
+This recommended bugfix release addresses a potential conflict with other plugins that prevented the plugin settings page main content from being displayed.
+
+### Details:
+
+* Change: Update plugin framework to 063
+    * Fix: Simplify settings initialization to prevent conflicts with other plugins
+    * Change: Remove ability to detect plugin settings page before current screen is set, as it is no longer needed
+    * Change: Enqueue thickbox during `'admin_enqueue_scripts'` action instead of during `'init'`
+    * Change: Use `is_plugin_admin_page()` in `help_tabs()` instead of reproducing its functionality
+    * Change: Trigger a debugging warning if `is_plugin_admin_page()` is used before `'admin_init'` action is fired
+* New: Add new string (from plugin framework) for translation
+
+## 2.0 _(2021-05-12)_
+
+### Highlights:
+
+This recommended minor release updates the plugin framework, restructures unit test files, notes compatibility through 5.7+, and incorporates numerous minor behind-the-scenes tweaks.
+
+### Details:
+
+* Change: Outright support HTML5 rather than check for theme support of HTML5, since that isn't relevant to admin
+* Change: Update plugin framework to 062
+    * 062:
+    * Change: Update `is_plugin_admin_page()` to use `get_current_screen()` when available
+    * Change: Actually prevent object cloning and unserialization by throwing an error
+    * Change: Check that there is a current screen before attempting to access its property
+    * Change: Remove 'type' attribute from `style` tag
+    * Change: Incorporate commonly defined styling for inline_textarea
+    * 061:
+    * Fix bug preventing settings from getting saved
+    * 060:
+    * Rename class from `c2c_{PluginName}_Plugin_051` to `c2c_Plugin_060`
+    * Move string translation handling into inheriting class making the plugin framework code plugin-agnostic
+        * Add abstract function `get_c2c_string()` as a getter for translated strings
+        * Replace all existing string usage with calls to `get_c2c_string()`
+    * Handle WordPress's deprecation of the use of the term "whitelist"
+        * Change: Rename `whitelist_options()` to `allowed_options()`
+        * Change: Use `add_allowed_options()` instead of deprecated `add_option_whitelist()` for WP 5.5+
+        * Change: Hook `allowed_options` filter instead of deprecated `whitelist_options` for WP 5.5+
+    * New: Add initial unit tests (currently just covering `is_wp_version_cmp()` and `get_c2c_string()`)
+    * Add `is_wp_version_cmp()` as a utility to compare current WP version against a given WP version
+    * Refactor `contextual_help()` to be easier to read, and correct function docblocks
+    * Don't translate urlencoded donation email body text
+    * Add inline comments for translators to clarify purpose of placeholders
+    * Change PHP package name (make it singular)
+    * Tweak inline function description
+    * Note compatibility through WP 5.7+
+    * Update copyright date (2021)
+    * 051:
+    * Allow setting integer input value to include commas
+    * Use `number_format_i18n()` to format integer value within input field
+    * Update link to coffee2code.com to be HTTPS
+    * Update `readme_url()` to refer to plugin's readme.txt on plugins.svn.wordpress.org
+    * Remove defunct line of code
+* Change: Use plugin framework's `is_plugin_admin_page()` instead of reinventing it
+* New: Add a recommendation for Add Admin JavaScript plugin to settings page
+* Change: Output the multiple tips on the settings page as a list instead of multiple paragraphs
+* Change: Prevent appending newline to value of setting passed to filter unless an actual value was configured
+* Change: Move translation of all parent class strings into main plugin file
+* Change: Tweak conditional checks to be more succinct
+* Change: Ensure there's a current screen before attempting to get one of its properties
+* Change: Omit inline styles for settings now that plugin framework defines them
+* Change: Output newlines after paragraph tags in settings page
+* Change: Note compatibility through WP 5.7+
+* Change: Update copyright date (2021)
+* Change: Change plugin's short description
+* Change: Tweak some readme.txt documentation
+* Change: Tweak some inline function and parameter documentation
+* Unit tests:
+    * New: Add tests for JS files getting registered and enqueued
+    * New: Add tests for `add_codemirror()`
+    * New: Add help function `get_css_files()`
+    * Change: Restructure unit test directories and files into `tests/` top-level directory
+    * Change: Remove 'test-' prefix from unit test files
+    * Change: In bootstrap, store path to plugin file constant so its value can be used within that file and in test file
+
+## 1.9.1 _(2020-09-25)_
+* Change: Update plugin framework to 051
+    * Allow setting integer input value to include commas
+    * Use `number_format_i18n()` to format integer value within input field
+    * Update link to coffee2code.com to be HTTPS
+    * Update `readme_url()` to refer to plugin's readme.txt on plugins.svn.wordpress.org
+    * Remove defunct line of code
+* Change: Note compatibility through WP 5.5+
+* Change: Restructure unit test file structure
+    * New: Create new subdirectory `phpunit/` to house all files related to unit testing
+    * Change: Move `bin/` to `phpunit/bin/`
+    * Change: Move `tests/bootstrap.php` to `phpunit/`
+    * Change: Move `tests/` to `phpunit/tests/`
+    * Change: Rename `phpunit.xml` to `phpunit.xml.dist` per best practices
+
+## 1.9 _(2020-06-26)_
+
+### Highlights:
+
+This minor release updates its plugin framework, adds a TODO.md file, updates a few URLs to be HTTPS, expands unit testing, updates compatibility to be WP 4.9 through 5.4+, and minor behind-the-scenes tweaks.
+
+### Details:
+
+* Change: Allow class to always be instantiated, but add check to only register hooks when in the admin
+* Change: Change class names used for admin notice to match current WP convention
+* Change: Update plugin framework to 050
+    * Allow a hash entry to literally have '0' as a value without being entirely omitted when saved
+    * Output donation markup using `printf()` rather than using string concatenation
+    * Update copyright date (2020)
+    * Note compatibility through WP 5.4+
+    * Drop compatibility with version of WP older than 4.9
+* New: Add TODO.md and move existing TODO list from top of main plugin file into it (and add to it)
+* Change: Tweak help text for 'files' setting for better phrasing and to remove extra sentence spaces
+* Change: Note compatibility through WP 5.4+
+* Change: Drop compatibility for version of WP older than 4.9
+* Change: Update links to coffee2code.com to be HTTPS
+* Change: Add translator comment for string with multiple placeholders
+* CHange: Minor code reformatting
+* Unit tests:
+    * New: Add test for `options_page_description()`
+    * New: Add tests for default hooks
+    * New: Add tests for setting and query param names
+    * New: Label groupings of tests
+    * Fix: Adjust tests to properly account for theme support or non-support of html5 when checking expected markup output
+    * Fix: Ensure admin-related tests call `test_turn_on_admin()` so admin init actions are called
+    * Fix: Invoke parent class's `setUp()` during `setUp()`
+    * Change: Remove unnecessary unregistering of hooks in `tearDown()`
+    * Change: Move `test_turn_on_admin()` until just before first needed now that other tests can run before it
+    * Change: Store plugin instance in class variable to simplify referencing it
+    * Change: Use HTTPS for link to WP SVN repository in bin script for configuring unit tests (and delete commented-out code)
+
+## 1.8 _(2019-12-04)_
+
+### Highlights:
+
+* This minor release adds HTML5 compliance when supported by the theme, modernizes and fixes unit tests, and notes compatibility through WP 5.3+.
+
+### Details:
+
+* New: Add HTML5 compliance by omitting `type` attribute when the theme supports 'html5'
+* Unit tests:
+    * New: Add unit test to ensure plugin is hooked to initialize on `plugins_loaded`
+    * Fix: Don't pass argument to plugin object's `add_css()`
+    * Fix: Don't expect `type` attribute in `link` tags since they're not HTML5-compliant
+    * Fix: Prevent WP from attempting to print the emoji detection script (which isn't built in the develop.svn repo)
+    * Change: Update unit test install script and bootstrap to use latest WP unit test repo
+* Change: Note compatibility through WP 5.3+
+* Change: Update copyright date (2020)
+
+## 1.7 (2019-04-13)_
+
+### Highlights:
+
+* This release adds a recovery mode to disable output of CSS via the plugin (and an admin notice when it is active), improves documentation, updates the plugin framework, notes compatibility through WP 5.1+, drops compatibility with versions of WP older than 4.7, and more documentation and code improvements.
+
+### Details:
+
+* New: Add recovery mode to be able to disable output of CSS via the plugin
+    * Add support for `c2c-no-css` query parameter for enabling recovery mode
+    * Add support for `C2C_ADD_ADMIN_CSS_DISABLED` constant for enabling recovery mode
+    * Display admin notice when recovery mode is active
+    * Add `can_show_css()`, `remove_query_param_from_redirects()`, `recovery_mode_notice()`
+* Change: Initialize plugin on `plugins_loaded` action instead of on load
+* Change: Update plugin framework to 049
+    * 049:
+    * Correct last arg in call to `add_settings_field()` to be an array
+    * Wrap help text for settings in `label` instead of `p`
+    * Only use `label` for help text for checkboxes, otherwise use `p`
+    * Ensure a `textarea` displays as a block to prevent orphaning of subsequent help text
+    * Note compatibility through WP 5.1+
+    * Update copyright date (2019)
+    * 048:
+    * When resetting options, delete the option rather than setting it with default values
+    * Prevent double "Settings reset" admin notice upon settings reset
+    * 047:
+    * Don't save default setting values to database on install
+    * Change "Cheatin', huh?" error messages to "Something went wrong.", consistent with WP core
+    * Note compatibility through WP 4.9+
+    * Drop compatibility with version of WP older than 4.7
+* New: Add README.md file
+* New: Add CHANGELOG.md file and move all but most recent changelog entries into it
+* New: Add FAQ entry describing ways to fix having potentially crippled the admin
+* New: Add inline documentation for hooks
+* New: Add GitHub link to readme
+* Unit tests:
+    * New: Add unit tests for `add_css()`
+    * New: Add unit test for defaults for settings
+    * Change: Improve tests for settings handling
+    * Change: Update `set_option()` to accept an array of setting values to use
+    * Change: Explicitly set 'twentyseventeen' as the theme to ensure testing against a known theme
+    * Change: Invoke `setup_options()` within each test as needed instead of `setUp()`
+* Change: Store setting name in constant
+* Change: Cast return value of `c2c_add_admin_css_files` filter as an array
+* Change: Improve documentation for hooks within readme.txt
+* Change: Note compatibility through WP 5.1+
+* Change: Drop compatibility with version of WP older than 4.7
+* Change: Rename readme.txt section from 'Advanced' to 'Hooks' and provide a better section intro
+* Change: Update installation instruction to prefer built-in installer over .zip file
+* Change: Update copyright date (2019)
+* Change: Update License URI to be HTTPS
+
+## 1.6 _(2017-11-03)_
+* New: Add support for CodeMirror (as packaged with WP 4.9)
+    * Adds code highlighting, syntax checking, and other features
+* Fix: Show admin notifications for settings page
+* Change: Update plugin framework to 046
+    * 046:
+    * Fix `reset_options()` to reference instance variable `$options`.
+    * Note compatibility through WP 4.7+.
+    * Update copyright date (2017)
+    * 045:
+    * Ensure `reset_options()` resets values saved in the database.
+    * 044:
+    * Add `reset_caches()` to clear caches and memoized data. Use it in `reset_options()` and `verify_config()`.
+    * Add `verify_options()` with logic extracted from `verify_config()` for initializing default option attributes.
+    * Add `add_option()` to add a new option to the plugin's configuration.
+    * Add filter 'sanitized_option_names' to allow modifying the list of whitelisted option names.
+    * Change: Refactor `get_option_names()`.
+    * 043:
+    * Disregard invalid lines supplied as part of hash option value.
+    * 042:
+    * Update `disable_update_check()` to check for HTTP and HTTPS for plugin update check API URL.
+    * Translate "Donate" in footer message.
+* Change: Update unit test bootstrap
+    * Default `WP_TESTS_DIR` to `/tmp/wordpress-tests-lib` rather than erroring out if not defined via environment variable
+    * Enable more error output for unit tests
+* Change: Note compatibility through WP 4.9+
+* Change: Remove support for WordPress older than 4.6
+* Change: Update copyright date (2018)
+
+## 1.5 _(2016-04-21)_
+* Change: Declare class as final.
+* Change: Update plugin framework to 041:
+    * For a setting that is of datatype array, ensure its default value is an array.
+    * Make `verify_config()` public.
+    * Use `<p class="description">` for input field help text instead of custom styled span.
+    * Remove output of markup for adding icon to setting page header.
+    * Remove styling for .c2c-input-help.
+    * Add braces around the few remaining single line conditionals.
+* Change: Note compatibility through WP 4.5+.
+* Change: Remove 'Domain Path' from plugin header.
+* New: Add LICENSE file.
+
+## 1.4 _(2016-01-10)_
+
+## Highlights:
+
+* This release fixes a couple of bugs, adds support for language packs, and has many minor behind-the-scenes changes.
+
+## Details:
+
+* Bugfix: Allow CSS links/files with query args to be enqueued.
+* Bugfix: If specified as part of the link, 'ver' query arg takes precedence as script version.
+* Add: More unit tests.
+* Add: Amend a couple of the FAQ answers to indicate things are possible via hooks rather than suggesting they aren't possible.
+* Change: Update plugin framework to 040:
+    * Change class name to `c2c_AddAdminCSS_Plugin_040` to be plugin-specific.
+    * Set textdomain using a string instead of a variable.
+    * Don't load textdomain from file.
+    * Change admin page header from 'h2' to 'h1' tag.
+    * Add `c2c_plugin_version()`.
+    * Formatting improvements to inline docs.
+* Change: Add support for language packs:
+    * Set textdomain using a string instead of a variable.
+    * Remove .pot file and /lang subdirectory.
+* Change: Declare class as final.
+* Change: Explicitly declare methods in unit tests as public or protected.
+* Change: Minor tweak to description.
+* Change: Minor improvements to inline docs and test docs.
+* Add: Create empty index.php to prevent files from being listed if web server has enabled directory listings.
+* Change: Note compatibility through WP 4.4+.
+* Change: Remove support for versions of WordPress older than 4.1.
+* Change: Update copyright date (2016).
+
+## 1.3.4 _(2015-04-30)_
+* Bugfix: Fix line-wrapping display for Firefox and Safari
+* Enhancement: Add an additional unit test
+* Update: Move 'Advanced' section lower in readme; add inline docs to example code
+* Update: Note compatibility through WP 4.2+
+
+## 1.3.3 _(2015-02-21)_
+* Bugfix: Revert back to using `dirname(__FILE__)`; `__DIR__` is only PHP 5.3+
+
+## 1.3.2 _(2015-02-16)_
+* Update plugin framework to 039
+* Add to and improve unit tests
+* Explicitly declare class method `activation()` and `uninstall()` static
+* Use `__DIR__` instead of `dirname(__FILE__)`
+* Various inline code documentation improvements (spacing, punctuation)
+* Note compatibility through WP 4.1+
+* Update copyright date (2015)
+* Regenerate .pot
+
+## 1.3.1 _(2014-08-23)_
+* Update plugin framework to 038
+* Minor plugin header reformatting
+* Minor code reformatting (spacing, bracing)
+* Change documentation links to wp.org to be https
+* Localize an additional string
+* Note compatibility through WP 4.0+
+* Regenerate .pot
+* Add plugin icon
+
+## 1.3 _(2014-01-03)_
+* Add unit tests
+* Update plugin framework to 036
+* Improve URL path construction
+* Use explicit path for `require_once()`
+* Add reset() to reset object to its initial state
+* Remove `__clone()` and `__wake()` since they are part of framework
+* For `options_page_description()`, match method signature of parent class
+* Note compatibility through WP 3.8+
+* Drop compatibility with versions of WP older than 3.5
+* Update copyright date (2014)
+* Change donate link
+* Minor readme.txt tweaks (mostly spacing)
+* Add banner
+* Update screenshot
+
+## 1.2
+* Move 'Advanced Tips' section from bottom of settings page into contextual help section
+* Add `help_tabs_content()` and `contextual_help()`
+* Prevent textareas from wrapping lines
+* Display fonts properly in textareas
+* Change input fields to be displayed as inline_textarea instead of textarea
+* Add `instance()` static method for returning/creating singleton instance
+* Made static variable 'instance' private
+* Add dummy `__clone()` and `__wakeup()`
+* Remove support for previously deprecated `c2c_add_admin_css` global
+* Remove `c2c_AddAdminCSS()`; only PHP5 constructor is supported now
+* Update plugin framework to 035
+* Discontinue use of explicit pass-by-reference for objects
+* Add check to prevent execution of code if file is directly accessed
+* Regenerate .pot
+* Re-license as GPLv2 or later (from X11)
+* Add 'License' and 'License URI' header tags to readme.txt and plugin file
+* Minor documentation improvements
+* Note compatibility through WP 3.5+
+* Drop compatibility versions of WP older than 3.1
+* Update copyright date (2013)
+* Minor code reformatting (spacing)
+* Remove ending PHP close tag
+* Create repo's WP.org assets directory
+* Move screenshot into repo's assets directory
+
+## 1.1
+* Rename class from `AddAdminCSS` to `c2c_AddAdminCSS`
+* Rename filter from `add_admin_css` to `c2c_add_admin_css`
+* Rename filter from `add_admin_css_files` to `c2c_add_admin_css_files`
+* Update plugin framework to 029
+* Save a static version of itself in class variable `$instance`
+* Deprecate use of global variable `$c2c_add_admin_css` to store instance
+* Explicitly declare all functions as public
+* Add `__construct()`, `activation()`, and `uninstall()`
+* Note compatibility through WP 3.3+
+* Drop compatibility with versions of WP older than 3.0
+* Add .pot
+* Add 'Domain Path' plugin header
+* Minor code formatting changes (spacing)
+* Update copyright date (2011)
+* Add plugin homepage and author links in description in readme.txt
+
+## 1.0
+* Initial release (not publicly released)

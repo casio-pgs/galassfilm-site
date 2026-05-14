@@ -1,0 +1,414 @@
+# Translation of Plugins - Search Regex - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Search Regex - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-30 13:23:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Search Regex - Stable (latest release)\n"
+
+#. translators: 1: server PHP version. 2: required PHP version.
+#: search-regex.php:31
+msgid "Disabled! Detected PHP %1$s, need PHP %2$s+"
+msgstr "無効です。PHP %1$s が検出されました。PHP %2$s+ が必要です"
+
+#: includes/source/core/class-user.php:169
+msgid "User meta"
+msgstr "ユーザーメタ情報"
+
+#: includes/source/core/class-user.php:163
+msgid "Registered"
+msgstr "登録日時"
+
+#: includes/source/core/class-user.php:143
+msgid "Display Name"
+msgstr "表示名"
+
+#: includes/source/core/class-user.php:136
+msgid "Nicename"
+msgstr "ナイスネーム"
+
+#: includes/source/core/class-user.php:129
+msgid "Login"
+msgstr "ログイン"
+
+#: includes/source/core/class-terms.php:148
+msgid "Taxonomy"
+msgstr "タクソノミー"
+
+#: includes/source/core/class-post.php:414
+msgid "Post Tag"
+msgstr "投稿タグ"
+
+#: includes/source/core/class-post.php:405
+msgid "Post Category"
+msgstr "投稿カテゴリー"
+
+#: includes/source/core/class-post.php:399
+msgid "Comment Count"
+msgstr "コメント数"
+
+#: includes/source/core/class-post.php:392
+msgid "MIME"
+msgstr "MIME"
+
+#: includes/source/core/class-post.php:385
+msgid "GUID"
+msgstr "GUID"
+
+#: includes/source/core/class-post.php:377
+msgid "Parent"
+msgstr "親"
+
+#: includes/source/core/class-post.php:371
+msgid "Modified GMT"
+msgstr "更新日時 (GMT)"
+
+#: includes/source/core/class-post.php:365
+msgid "Modified"
+msgstr "更新日時"
+
+#: includes/source/core/class-post.php:358
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/source/core/class-post.php:355
+msgid "Has no password"
+msgstr "パスワードなし"
+
+#: includes/source/core/class-post.php:351
+msgid "Has password"
+msgstr "パスワードあり"
+
+#: includes/source/core/class-post.php:342
+msgid "Ping Status"
+msgstr "PING の状態"
+
+#: includes/source/core/class-post.php:326
+msgid "Comment Status"
+msgstr "コメントの状態"
+
+#: includes/source/core/class-post.php:323
+#: includes/source/core/class-post.php:339
+msgid "Closed"
+msgstr "閉鎖"
+
+#: includes/source/core/class-post.php:319
+#: includes/source/core/class-post.php:335
+msgid "Open"
+msgstr "開放"
+
+#: includes/source/core/class-post.php:311
+msgid "Post Status"
+msgstr "投稿状態"
+
+#: includes/source/core/class-post.php:304
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: includes/source/core/class-post.php:271
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: includes/source/core/class-post.php:262
+#: includes/source/core/class-terms.php:141
+msgid "Slug"
+msgstr "スラッグ"
+
+#: includes/source/core/class-post.php:254 build/search-regex.js:3
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/source/core/class-options.php:133
+msgid "Autoload"
+msgstr "Autoload"
+
+#: includes/source/core/class-options.php:130
+msgid "Is not autoload"
+msgstr "autoload ではない"
+
+#: includes/source/core/class-options.php:126
+msgid "Is autoload"
+msgstr "autoload です"
+
+#: includes/source/core/class-options.php:115
+msgid "Value"
+msgstr "値"
+
+#: includes/source/core/class-options.php:108
+#: includes/source/core/class-terms.php:134 build/search-regex.js:3
+msgid "Name"
+msgstr "名前"
+
+#: includes/source/core/class-options.php:96 build/search-regex.js:11
+msgid "Options"
+msgstr "設定"
+
+#: includes/source/core/class-meta.php:117 build/search-regex.js:2
+#: build/search-regex.js:3 build/search-regex.js:4
+msgid "Meta Value"
+msgstr "メタ値"
+
+#: includes/source/core/class-meta.php:110 build/search-regex.js:2
+#: build/search-regex.js:3 build/search-regex.js:4
+msgid "Meta Key"
+msgstr "メタキー"
+
+#: includes/source/core/class-meta.php:103
+msgid "Owner ID"
+msgstr "所有者 ID"
+
+#: includes/source/core/class-comment.php:260
+msgid "Comment meta"
+msgstr "コメントメタ情報"
+
+#: includes/source/core/class-comment.php:252
+msgid "User ID"
+msgstr "ユーザー ID"
+
+#: includes/source/core/class-comment.php:246
+msgid "Parent Comment"
+msgstr "親コメント"
+
+#: includes/source/core/class-comment.php:239
+msgid "Comment"
+msgstr "コメント"
+
+#: includes/source/core/class-comment.php:235
+msgid "Trackback"
+msgstr "トラックバック"
+
+#: includes/source/core/class-comment.php:231
+msgid "Pingback"
+msgstr "ピンバック"
+
+#: includes/source/core/class-comment.php:227
+msgid "Type"
+msgstr "種類"
+
+#: includes/source/core/class-comment.php:222
+msgid "User Agent"
+msgstr "ユーザーエージェント"
+
+#: includes/source/core/class-comment.php:217
+msgid "Approval Status"
+msgstr "承認状態"
+
+#: includes/source/core/class-comment.php:214
+msgid "Spam"
+msgstr "スパム"
+
+#: includes/source/core/class-comment.php:210
+msgid "Approved"
+msgstr "承認済み"
+
+#: includes/source/core/class-comment.php:206
+msgid "Unapproved"
+msgstr "承認待ち"
+
+#: includes/source/core/class-comment.php:197
+#: includes/source/core/class-post.php:298
+msgid "Date GMT"
+msgstr "日時 (GMT)"
+
+#: includes/source/core/class-comment.php:191
+#: includes/source/core/class-post.php:292
+msgid "Date"
+msgstr "日時"
+
+#: includes/source/core/class-comment.php:186
+msgid "IP"
+msgstr "IP"
+
+#: includes/source/core/class-comment.php:179
+#: includes/source/core/class-post.php:277
+msgid "Content"
+msgstr "本文"
+
+#: includes/source/core/class-comment.php:173
+#: includes/source/core/class-user.php:156
+msgid "URL"
+msgstr "URL"
+
+#: includes/source/core/class-comment.php:166
+#: includes/source/core/class-user.php:150 build/search-regex.js:1
+#: build/search-regex.js:3 build/search-regex.js:10
+msgid "Email"
+msgstr "メールアドレス"
+
+#: includes/source/core/class-comment.php:159
+#: includes/source/core/class-post.php:285
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/source/core/class-comment.php:152
+msgid "Post ID"
+msgstr "投稿 ID"
+
+#: includes/source/core/class-comment.php:146
+#: includes/source/core/class-options.php:102
+#: includes/source/core/class-post.php:248
+#: includes/source/core/class-terms.php:127
+#: includes/source/core/class-user.php:122
+msgid "ID"
+msgstr "ID"
+
+#: includes/source/class-manager.php:172
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: includes/source/class-manager.php:163 build/search-regex.js:1
+msgid "Advanced"
+msgstr "高度"
+
+#: includes/source/class-manager.php:154
+msgid "Standard"
+msgstr "標準"
+
+#: includes/source/class-manager.php:80
+#: includes/source/core/class-terms.php:121
+msgid "Terms"
+msgstr "用語"
+
+#: includes/source/class-manager.php:74
+#: includes/source/core/class-user-meta.php:30
+msgid "User Meta"
+msgstr "ユーザーのメタ情報"
+
+#: includes/source/class-manager.php:68
+#: includes/source/core/class-comment-meta.php:23
+msgid "Comment Meta"
+msgstr "コメントメタ情報"
+
+#: includes/source/class-manager.php:62
+#: includes/source/core/class-post-meta.php:25
+#: includes/source/core/class-post.php:423
+msgid "Post Meta"
+msgstr "投稿メタ情報"
+
+#: includes/source/class-manager.php:44
+msgid "WordPress Options"
+msgstr "WordPress 設定"
+
+#: includes/source/class-manager.php:38 includes/source/core/class-user.php:116
+msgid "Users"
+msgstr "ユーザー"
+
+#: includes/source/class-manager.php:32
+#: includes/source/core/class-comment.php:140
+msgid "Comments"
+msgstr "コメント"
+
+#: includes/source/class-manager.php:26 includes/source/core/class-post.php:242
+msgid "Posts (core & custom)"
+msgstr "投稿 (コア & カスタム)"
+
+#: includes/admin/class-admin.php:440
+msgid "Please enable JavaScript"
+msgstr "JavaScript を有効にしてください"
+
+#: includes/admin/class-admin.php:436
+msgid "Loading, please wait..."
+msgstr "読み込み中、少々お待ちください..."
+
+#: includes/admin/class-admin.php:419
+msgid "Create Issue"
+msgstr "問題を報告"
+
+#: includes/admin/class-admin.php:416
+msgid "<code>SearchRegexi10n</code> is not defined. This usually means another plugin is blocking Search Regex from loading. Please disable all plugins and try again."
+msgstr "<code>SearchRegexi10n</code> が定義されていません。別のプラグインが Search Regex の機能をブロックしているようです。一度すべてのプラグインを無効にしてから、もう一度お試しください。"
+
+#: includes/admin/class-admin.php:415
+msgid "If you think Search Regex is at fault then create an issue."
+msgstr "Search Regex に問題がある場合は、問題を報告してください。"
+
+#: includes/admin/class-admin.php:414
+msgid "Please see the <a href=\"https://searchregex.com/support/problems/\">list of common problems</a>."
+msgstr "お手数ですが<a href=\"https://searchregex.com/support/problems/\">開発者のウェブサイト</a>をご覧ください。"
+
+#: includes/admin/class-admin.php:413
+msgid "Please note that Search Regex requires the WordPress REST API to be enabled. If you have disabled this then you won't be able to use Search Regex"
+msgstr "Search Regex では、WordPress の REST API を 有効にする必要があります。無効にすると、Search Regex を使用できません"
+
+#: includes/admin/class-admin.php:411
+msgid "Also check if your browser is able to load <code>search-regex.js</code>:"
+msgstr "また使用中のブラウザが <code>search-regex.js</code> を読み込み可能か確認してください:"
+
+#: includes/admin/class-admin.php:410 build/search-regex.js:2
+msgid "If you are using a page caching plugin or service (CloudFlare, OVH, etc) then you can also try clearing that cache."
+msgstr "キャッシュプラグインまたは CDN サービス (CloudFlare、OVHなど) を使用している場合は、そのキャッシュを削除すると解決することがあります。"
+
+#: includes/admin/class-admin.php:409
+msgid "This may be caused by another plugin - look at your browser's error console for more details."
+msgstr "この問題は、使用中の別のプラグインが原因である可能性があります。詳細はブラウザのエラーコンソールを確認してください。"
+
+#: includes/admin/class-admin.php:408
+msgid "Unable to load Search Regex ☹️"
+msgstr "Search Regex を読み込めません☹️"
+
+#: includes/admin/class-admin.php:393
+msgid "Unable to load Search Regex"
+msgstr "Search Regex を読み込めません"
+
+#. translators: 1: Expected WordPress version, 2: Actual WordPress version
+#: includes/admin/class-admin.php:390
+msgid "Search Regex requires WordPress v%1$1s, you are using v%2$2s - please update your WordPress"
+msgstr "Search Regex には WordPress v%1$1s が必要です。このサイトでは v%2$2s を使用しています。WordPress 本体を更新してください"
+
+#: includes/admin/class-admin.php:320
+msgid "Search Regex Support"
+msgstr "Search Regex ヘルプ"
+
+#: includes/admin/class-admin.php:316
+msgid "{{link}}Source{{/link}} - the source of data you wish to search. For example, posts, pages, or comments."
+msgstr "{{link}}入力元{{/link}} - 検索したいデータの入力元です。投稿、ページ、コメントなどです。"
+
+#: includes/admin/class-admin.php:315
+msgid "{{link}}Regular expression{{/link}} - a way of defining a pattern for text matching. Provides more advanced matches."
+msgstr "{{link}}正規表現{{/link}} - 文字列一致のパターンを定義する記法です。より高度な検索が可能です。"
+
+#: includes/admin/class-admin.php:314
+msgid "{{link}}Search Flags{{/link}} - additional qualifiers for your search, to enable case insensitivity, and to enable regular expression support."
+msgstr "{{link}}検索フラグ{{/link}} - 検索を修飾します。大文字小文字を区別しない、また正規表現の対応を有効にします。"
+
+#: includes/admin/class-admin.php:312
+msgid "The following concepts are used by Search Regex:"
+msgstr "Search Regex では以下の概念が採用されています:"
+
+#. translators: URL
+#: includes/admin/class-admin.php:311
+msgid "You can find full documentation about using Search Regex on the <a href=\"%s\" target=\"_blank\">searchregex.com</a> support site."
+msgstr "Search Regex の完全版マニュアルは、<a href=\"%s\" target=\"_blank\">searchregex.com</a> にあります。"
+
+#: includes/admin/class-admin.php:303
+msgid "{{link}}Source Flags{{/link}} - additional options for the selected source. For example, include post {{guid}}GUID{{/guid}} in the search."
+msgstr "{{link}}検索フラグ{{/link}} - 選択した入力元用の追加のオプションです。たとえば、検索に投稿 {{guid}}GUID{{/guid}} を含めます。"
+
+#: includes/admin/class-admin.php:64
+msgid "Settings"
+msgstr "設定"
+
+#. Author of the plugin
+#: search-regex.php
+msgid "John Godley"
+msgstr "John Godley"
+
+#. Description of the plugin
+#: search-regex.php
+msgid "Adds search and replace functionality across posts, pages, comments, and meta-data, with full regular expression support"
+msgstr "投稿、ページ、コメント、メタデータにわたって、正規表現に完全に対応した検索と置換機能を追加します"
+
+#. Plugin URI of the plugin
+#: search-regex.php
+msgid "https://searchregex.com/"
+msgstr "https://searchregex.com/"
+
+#. Plugin Name of the plugin
+#: search-regex.php build/search-regex.js:11
+msgid "Search Regex"
+msgstr "Search Regex"

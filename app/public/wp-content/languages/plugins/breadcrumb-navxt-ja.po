@@ -1,0 +1,894 @@
+# Translation of Plugins - Breadcrumb NavXT - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Breadcrumb NavXT - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-13 13:46:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Breadcrumb NavXT - Stable (latest release)\n"
+
+#. translators: %s: The singular name of the taxonomy
+#: breadcrumb-navxt.php:497
+msgid "Go to the %%title%% %s archives."
+msgstr "%%title%% %s のアーカイブに移動します。"
+
+#: includes/blocks/build/breadcrumb-trail/block.json
+msgctxt "block keyword"
+msgid "breadcrumb trail"
+msgstr "パンくずリスト"
+
+#: includes/blocks/build/breadcrumb-trail/block.json
+msgctxt "block keyword"
+msgid "navigation"
+msgstr "ナビゲーション"
+
+#: includes/blocks/build/breadcrumb-trail/block.json
+msgctxt "block keyword"
+msgid "breadcrumbs"
+msgstr "パンくず"
+
+#: includes/blocks/build/breadcrumb-trail/block.json
+msgctxt "block description"
+msgid "Displays a breadcrumb trail"
+msgstr "パンくずリストを表示"
+
+#: includes/blocks/build/breadcrumb-trail/block.json
+msgctxt "block title"
+msgid "Breadcrumb Trail"
+msgstr "パンくずリスト"
+
+#: class.bcn_widget.php:128 includes/blocks/build/breadcrumb-trail/index.js:1
+msgid "Schema.org BreadcrumbList (RDFa) with WAI-ARIA"
+msgstr "Schema.org WAI-ARIA 対応のパンくずリスト (RDFa)"
+
+#: class.bcn_admin.php:432
+msgid "Value has been set via network wide setting."
+msgstr "値はネットワーク全体の設定によって設定されました。"
+
+#. translators: %1$s: Export of the taxonomy object of the unexpected custom
+#. taxonomy
+#: class.bcn_admin.php:362
+msgid "Error: WP_Taxonomies global contains non WP_Taxonomy object. Debug information: %1$s"
+msgstr "エラー: WP_Taxonomies グローバル変数に WP_Taxonomy オブジェクト以外が含まれています。デバッグ情報: %1$s"
+
+#. translators: %1$s: Export of the post_type object of the unexpected CPT
+#: class.bcn_admin.php:333
+msgid "Error: WP_Post_Types global contains non WP_Post_Type object. Debug information: %1$s"
+msgstr "エラー: WP_Post_Types グローバル変数に WP_Post_Type オブジェクト以外が含まれています。デバッグ情報: %1$s"
+
+#: includes/adminKit/class-mtekk_adminkit.php:785
+msgid "No settings were imported. Settings from uploaded file matched existing settings."
+msgstr "設定はインポートされませんでした。アップロードされたファイルの設定は既存の設定と一致しました。"
+
+#: class.bcn_breadcrumb_trail.php:577
+msgid "$term global is not of type WP_Term"
+msgstr "$term グローバル変数は WP_Term 形式ではありません"
+
+#. translators: %1$s: Taxonomy label, %2$s: Taxonomy name
+#: class.bcn_admin.php:375
+msgid "Warning: The taxonomy %1$s (%2$s) was registered after the Breadcrumb NavXT default settings. It will not show up in the settings."
+msgstr "警告: タクソノミー %1$s (%2$s) は、Breadcrumb NavXT のデフォルト設定より後に登録されました。設定には表示されません。"
+
+#. translators: %1$s: Post type singular name, %2$s: Post type name
+#: class.bcn_admin.php:346
+msgid "Warning: The post type %1$s (%2$s) was registered after the Breadcrumb NavXT default settings. It will not show up in the settings."
+msgstr "警告: 投稿タイプ %1$s (%2$s) は、Breadcrumb NavXT のデフォルト設定より後に登録されました。設定には表示されません。"
+
+#. translators: %1$s: Name of the deprecated template tag found, %2$s:
+#. Recommended replacement tag for the deprecated tag, %3$s: The setting name
+#. where the deprecated tag was found
+#: class.bcn_admin.php:312
+msgid "Error: The deprecated template tag %1$s found in setting %3$s. Please use %2$s instead."
+msgstr "エラー: 非推奨のテンプレートタグ %1$s が設定 %3$s に見つかりました。代わりに %2$s を使用してください。"
+
+#. translators: %1$s: HTML opening tag for link to article, %2$s: HTML closing
+#. tag for link to article
+#: class.bcn_admin.php:284
+msgid "Error: The deprecated setting \"Title Length\" (see Miscellaneous &gt; Deprecated) has no effect in this version Breadcrumb NavXT. Please %1$suse CSS instead%2$s."
+msgstr "エラー: 非推奨の設定「タイトルの長さ」(その他 &gt; 非推奨を参照) は、このバージョンの Breadcrumb NavXT では無効です。%2$s の代わりに %1$s CSSを使用してください。"
+
+#: class.bcn_admin.php:167
+msgid "Translate"
+msgstr "翻訳"
+
+#: class.bcn_admin.php:165
+msgid "Donate"
+msgstr "寄付"
+
+#: class.bcn_admin.php:160
+msgid "Report a Bug"
+msgstr "バグを報告"
+
+#: class.bcn_admin.php:159
+msgid "Check out the documentation for more indepth technical information."
+msgstr "より詳細な技術情報の文書を確認する"
+
+#: class.bcn_admin.php:158
+msgid "Online Documentation"
+msgstr "オンラインのドキュメンテーション"
+
+#: class.bcn_admin.php:157
+msgid "There are several guides, tutorials, and how tos available on the author's website."
+msgstr "作者のサイトには、いくつかのガイド、チュートリアル、ハウツーがあります。"
+
+#: class.bcn_admin.php:156
+msgid "Tutorials and How Tos"
+msgstr "チュートリアルとハウツー"
+
+#. translators: %u: Number of unknown legacy settings found, %s: comma
+#. separated list of the setting names
+#: class.bcn_admin.php:110
+msgid "Found %1$u unknown legacy settings: %2$s"
+msgstr "不明な旧設定 %1$u が見つかりました: %2$s"
+
+#: breadcrumb-navxt.php:572
+msgid "Maximum Title Length"
+msgstr "タイトルの最大長さ"
+
+#: breadcrumb-navxt.php:566
+msgid "Limit Title Length"
+msgstr "タイトルの長さを制限"
+
+#: breadcrumb-navxt.php:350
+msgid "Breadcrumb Separator (Higher Dimension)"
+msgstr "パンくずリストのセパレーター (上位階層用)"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1148
+msgid "Import settings"
+msgstr "インポート設定"
+
+#: class.bcn_breadcrumb_trail.php:153
+msgid "Go to the %title% category archives."
+msgstr "%title%カテゴリーアーカイブへ移動する"
+
+#: breadcrumb-navxt.php:541 class.bcn_breadcrumb_trail.php:142
+msgid "Go to the first page of posts by %title%."
+msgstr "%title%の最初の投稿へ移動する"
+
+#. translators: %s: The post author name the current archive is for
+#. translators: %1$s: The post author name the current archive is for
+#: breadcrumb-navxt.php:540 breadcrumb-navxt.php:547
+#: class.bcn_breadcrumb_trail.php:141 class.bcn_breadcrumb_trail.php:146
+msgid "Articles by: %1$s"
+msgstr "%1$s の記事"
+
+#: breadcrumb-navxt.php:530 class.bcn_breadcrumb_trail.php:134
+#: class.bcn_breadcrumb_trail.php:157
+msgid "Go to the %title% archives."
+msgstr "%title%アーカイブへ移動する"
+
+#: class.bcn_breadcrumb_trail.php:129
+msgid "Go to the %title% tag archives."
+msgstr "%title%タグアーカイブへ移動する"
+
+#. translators: %title%: The searched phrase
+#: breadcrumb-navxt.php:520 class.bcn_breadcrumb_trail.php:122
+msgid "Go to the first page of search results for %title%."
+msgstr "%title%の検索結果ページへ移動する"
+
+#: class.bcn_breadcrumb.php:87
+msgid "Go to %title%."
+msgstr "%title%へ移動する"
+
+#. translators: %s: Singular name for the CPT
+#: class.bcn_admin.php:632
+msgid "Use the parent of the %s as the primary hierarchy, falling back to the hierarchy selected below when the parent hierarchy is exhausted."
+msgstr "%s の親階層を主階層として使用し、親階層を使い果たした場合は、下で選択されている階層にフォールバックします。"
+
+#. translators: %s: The singular name of the post type
+#: breadcrumb-navxt.php:437
+msgid "%s Hierarchy Use Parent First"
+msgstr "%s 階層は親を最初に使用"
+
+#. translators: %1$s: HTML opening tag for link to the support forums, %2$s:
+#. HTML closing tag for link to support forums
+#: includes/adminKit/class-mtekk_adminkit.php:701
+msgid "Go to the %s support forum."
+msgstr "%sサポートフォーラムにアクセス。"
+
+#: class.bcn_widget.php:129 includes/blocks/build/breadcrumb-trail/index.js:1
+msgid "Schema.org BreadcrumbList (microdata)"
+msgstr "Schema.org BreadcrumbList (マイクロデータ)"
+
+#: class.bcn_widget.php:127 includes/blocks/build/breadcrumb-trail/index.js:1
+msgid "Schema.org BreadcrumbList (RDFa)"
+msgstr "Schema.org BreadcrumbList (RDFa)"
+
+#: class.bcn_rest_controller.php:112
+msgid "The ID of the author to retrieve the breadcrumb trail for."
+msgstr "パンくずリストを取得する投稿者 ID。"
+
+#: class.bcn_rest_controller.php:98
+msgid "The taxonomy of the term to retrieve the breadcrumb trail for."
+msgstr "パンくずリストを取得する対象のタームのタクソノミー。"
+
+#: class.bcn_rest_controller.php:92
+msgid "The ID of the term to retrieve the breadcrumb trail for."
+msgstr "パンくずリストを取得するターム ID。"
+
+#: class.bcn_rest_controller.php:78
+msgid "The ID of the post (any type) to retrieve the breadcrumb trail for."
+msgstr "パンくずリストを取得する投稿 ID (任意のタイプ)。"
+
+#: breadcrumb-navxt.php:552 class.bcn_admin.php:755
+msgid "Author Root Page"
+msgstr "投稿者のルートページ"
+
+#: class.bcn_breadcrumb.php:240
+msgid "bcn_breadcrumb::type must be an array"
+msgstr "bcn_breadcrumb::type は配列である必要があります"
+
+#: includes/adminKit/class-mtekk_adminkit_message.php:44
+msgid "$uid must not be null if message is dismissible"
+msgstr "メッセージが閉じられる場合、$uid は null であってはなりません"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1074
+msgid "adminKit::message is deprecated, use new adminkit_messages instead."
+msgstr "adminKit::message は非推奨です。代わりに新しい adminkit_messages を使用してください。"
+
+#: class.bcn_widget.php:142
+msgid "Ignore breadcrumb cache"
+msgstr "パンくずキャッシュを無視する"
+
+#. translators: %s: The singular name of the post type
+#: breadcrumb-navxt.php:419 breadcrumb-navxt.php:486
+msgid "%s Hierarchy Referer Influence"
+msgstr "%s階層表示におけるリファラーページの考慮"
+
+#: class.bcn_admin.php:638
+msgid "Allow the referring page to influence the taxonomy selected for the hierarchy."
+msgstr "参照元ページが、階層用に選択されたタクソノミーに影響するようにする。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:408
+msgid "One or more of your plugin settings are invalid."
+msgstr "プラグインの設定に間違っているものがあります。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:391
+msgid "Attempt back migration now."
+msgstr "今すぐ移行の差し戻しを試みる。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:390
+msgid "Your settings are for a newer version of this plugin."
+msgstr "設定がこのプラグインの新しいバージョン向けになっています。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:380
+msgid "Your settings are for an older version of this plugin and need to be migrated."
+msgstr "設定がこのプラグインの古いバージョン向けになっており、移行が必要です。"
+
+#: class.bcn_breadcrumb_trail.php:678
+msgctxt "year archive breadcrumb date format"
+msgid "Y"
+msgstr "Y年"
+
+#: class.bcn_breadcrumb_trail.php:646
+msgctxt "month archive breadcrumb date format"
+msgid "F"
+msgstr "n月"
+
+#: class.bcn_breadcrumb_trail.php:614
+msgctxt "day archive breadcrumb date format"
+msgid "d"
+msgstr "j日"
+
+#: breadcrumb-navxt.php:360
+msgctxt "Paged as in when on an archive or post that is split into multiple pages"
+msgid "Paged Template"
+msgstr "分割ページテンプレート"
+
+#: class.bcn_admin.php:473
+msgid "Place the page number breadcrumb in the trail."
+msgstr "ページ番号のパンくずを最後に配置する。"
+
+#: breadcrumb-navxt.php:364
+msgctxt "Paged as in when on an archive or post that is split into multiple pages"
+msgid "Paged Breadcrumb"
+msgstr "分割ページパンくず"
+
+#: class.bcn_admin.php:168
+msgid "Is your language not available? Visit the Breadcrumb NavXT translation project on WordPress.org to start translating."
+msgstr "お使いの言語が利用できませんか ? WordPress.org の Breadcrumb NavXT 翻訳プロジェクトへ移動し、翻訳を始めましょう。"
+
+#. Author URI of the plugin
+#: breadcrumb-navxt.php
+msgid "http://mtekk.us/"
+msgstr "http://mtekk.us/"
+
+#. Author of the plugin
+#: breadcrumb-navxt.php
+msgid "John Havlik"
+msgstr "John Havlik"
+
+#. Description of the plugin
+#: breadcrumb-navxt.php
+msgid "Adds a breadcrumb navigation showing the visitor&#39;s path to their current location. For details on how to use this plugin visit <a href=\"http://mtekk.us/code/breadcrumb-navxt/\">Breadcrumb NavXT</a>."
+msgstr "訪問者に対し現在地へのパスを表示する「パンくずリスト」ナビゲーションをサイトに追加します。このプラグインの使い方について詳しくは <a href=\"http://mtekk.us/code/breadcrumb-navxt/\">Breadcrumb NavXT のサイト</a>をご覧ください。"
+
+#. Plugin URI of the plugin
+#: breadcrumb-navxt.php
+msgid "http://mtekk.us/code/breadcrumb-navxt/"
+msgstr "http://mtekk.us/code/breadcrumb-navxt/"
+
+#. Plugin Name of the plugin
+#: breadcrumb-navxt.php
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1155
+msgid "Select a JSON or XML settings file to upload and import settings from."
+msgstr "アップロードし、設定をインポートする JSON または XML ファイルを選択してください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1152
+msgid "Settings File"
+msgstr "設定ファイル"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1149
+msgid "Import settings from a JSON or XML file, export the current settings to a JSON file, or reset to the default settings."
+msgstr "JSON または XMLファイルから設定をインポートしたり、現在の設定を JSON ファイルにエクスポートしたり、デフォルトの設定に戻したりします。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1021
+msgid "Default settings successfully installed."
+msgstr "デフォルトの設定をインストールしました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:1014
+msgid "Settings successfully migrated."
+msgstr "設定を移行しました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:973
+msgid "Undo the last undo operation."
+msgstr "直前の取り消しをキャンセルします。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:972
+msgid "Settings successfully undid the last operation."
+msgstr "直前の操作を取り消しました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:951
+msgid "Undo the options reset."
+msgstr "設定のリセットを取り消します。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:950
+msgid "Settings successfully reset to the default values."
+msgstr "設定をデフォルトに戻しました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:799
+#: includes/adminKit/class-mtekk_adminkit.php:927
+msgid "Importing settings from file failed."
+msgstr "ファイルからの設定インポートが失敗しました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:781
+#: includes/adminKit/class-mtekk_adminkit.php:922
+msgid "Undo the options import."
+msgstr "設定のインポートを中止します。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:780
+#: includes/adminKit/class-mtekk_adminkit.php:921
+msgid "Settings successfully imported from the uploaded file."
+msgstr "アップロードしたファイルから設定をインポートしました。"
+
+#. translators: %1$s: HTML opening tag for link to the support forums, %2$s:
+#. HTML closing tag for link to support forums
+#: includes/adminKit/class-mtekk_adminkit.php:701
+msgid "Please include this message in your %1$sbug report%2$s."
+msgstr "%1$s バグ報告 %2$s にこのメッセージを含めてください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:695
+msgid "The following settings were not saved:"
+msgstr "次の設定は保存されませんでした。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:693
+msgid "Some settings were not saved."
+msgstr "保存されていない設定があります。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:688
+msgid "Settings were not saved."
+msgstr "設定は保存されていません。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:684
+msgid "Settings did not change, nothing to save."
+msgstr "設定は変更されていません。保存の対象となる差分はありません。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:680
+#: includes/adminKit/class-mtekk_adminkit.php:694
+#: includes/adminKit/class-mtekk_adminkit.php:781
+#: includes/adminKit/class-mtekk_adminkit.php:922
+#: includes/adminKit/class-mtekk_adminkit.php:951
+#: includes/adminKit/class-mtekk_adminkit.php:973
+msgid "Undo"
+msgstr "取り消し"
+
+#: includes/adminKit/class-mtekk_adminkit.php:680
+#: includes/adminKit/class-mtekk_adminkit.php:694
+msgid "Undo the options save."
+msgstr "設定の保存を取り消します。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:679
+msgid "Settings successfully saved."
+msgstr "設定を保存しました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:409
+msgid "Fix now."
+msgstr "今すぐ修正してください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:409
+msgid "Attempt to fix settings now."
+msgstr "設定の修正を試みてください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:400
+msgid "Complete now."
+msgstr "完了しました。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:400
+msgid "Load default settings now."
+msgstr "デフォルトの設定を読み込んでください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:399
+msgid "Your plugin install is incomplete."
+msgstr "プラグインのインストールが不完全です。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:381
+msgid "Migrate now."
+msgstr "移行してください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:381
+#: includes/adminKit/class-mtekk_adminkit.php:391
+msgid "Migrate the settings now."
+msgstr "設定を移行してください。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:303
+msgid "Settings"
+msgstr "設定"
+
+#: class.bcn_widget.php:140
+msgid "Hide the trail on the front page"
+msgstr "トップページではリストを表示しない"
+
+#: class.bcn_widget.php:138 includes/blocks/build/breadcrumb-trail/index.js:1
+msgid "Reverse the order of the trail"
+msgstr "リストの順序を逆にする"
+
+#: class.bcn_widget.php:136 includes/blocks/build/breadcrumb-trail/index.js:1
+msgid "Link the breadcrumbs"
+msgstr "パンくずをリンクにする"
+
+#: class.bcn_widget.php:130
+msgid "Plain"
+msgstr "基本"
+
+#: class.bcn_widget.php:126
+msgid "List"
+msgstr "リスト"
+
+#: class.bcn_widget.php:124
+msgid "Output trail as:"
+msgstr "パンくずの出力方法:"
+
+#: class.bcn_widget.php:120
+msgid "Text to show before the trail:"
+msgstr "パンくずの前に表示するテキスト:"
+
+#: class.bcn_widget.php:116
+msgid "Title:"
+msgstr "タイトル: "
+
+#: class.bcn_widget.php:30
+msgid "Adds a breadcrumb trail to your sidebar"
+msgstr "サイドバーにパンくずリストを追加"
+
+#: class.bcn_network_admin.php:45
+msgid "Breadcrumb NavXT Network Settings"
+msgstr "Breadcrumb NavXT ネットワーク設定"
+
+#: class.bcn_network_admin.php:179 class.bcn_network_admin.php:183
+msgid "Warning: Individual site settings may override any settings set in this page."
+msgstr "警告: 各サイト別の設定は、このページの設定より優先されることがあります。"
+
+#: class.bcn_network_admin.php:171 class.bcn_network_admin.php:189
+msgid "Warning: Individual site settings will override any settings set in this page."
+msgstr "警告: 各サイト別の設定は、このページの設定より常に優先されます。"
+
+#: class.bcn_breadcrumb_trail.php:522
+msgid "$post global is not of type WP_Post"
+msgstr "グローバル変数 $post の型が WP_Post ではありません"
+
+#. translators: %s: The searched phrase
+#. translators: %1$s: The searched phrase
+#: breadcrumb-navxt.php:519 breadcrumb-navxt.php:526
+#: class.bcn_breadcrumb_trail.php:120 class.bcn_breadcrumb_trail.php:126
+msgid "Search results for &#39;%1$s&#39;"
+msgstr "「%1$s」の検索結果"
+
+#: breadcrumb-navxt.php:513 class.bcn_breadcrumb_trail.php:115
+msgid "404"
+msgstr "404"
+
+#. translators: %htitle%: The page title which may contain HTML
+#. translators: %htitle%: The page title which may contain HTML, in this case
+#. it should be a number as it is when on a paginated archive
+#: breadcrumb-navxt.php:359 class.bcn_breadcrumb_trail.php:78
+msgid "Page %htitle%"
+msgstr "ページ %htitle%"
+
+#: class.bcn_admin.php:819
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: class.bcn_admin.php:811
+msgid "The template for 404 breadcrumbs."
+msgstr "404 パンくずのテンプレートです。"
+
+#: breadcrumb-navxt.php:510
+msgid "404 Template"
+msgstr "404テンプレート"
+
+#: breadcrumb-navxt.php:514
+msgid "404 Title"
+msgstr "404 タイトル"
+
+#: class.bcn_admin.php:800
+msgid "The anchor template for search breadcrumbs, used only when the search results span several pages and the breadcrumb is not linked."
+msgstr "検索パンくずのアンカー用テンプレートです。検索結果が複数ページに渡り、リンクになっていないときだけ使われます。"
+
+#: breadcrumb-navxt.php:527
+msgid "Search Template (Unlinked)"
+msgstr "検索テンプレート (リンクなし)"
+
+#: class.bcn_admin.php:794
+msgid "The anchor template for search breadcrumbs, used only when the search results span several pages."
+msgstr "検索パンくずのアンカー用テンプレートです。検索結果が複数ページに渡るときにだけ使われます。"
+
+#: breadcrumb-navxt.php:521
+msgid "Search Template"
+msgstr "検索テンプレート"
+
+#: class.bcn_admin.php:788
+msgid "The template for date breadcrumbs, used only when the breadcrumb is not linked."
+msgstr "日付パンくずのテンプレートです。パンくずがリンクになっていない場合にのみ使われます。"
+
+#: breadcrumb-navxt.php:535
+msgid "Date Template (Unlinked)"
+msgstr "日付テンプレート (リンクなし)"
+
+#: class.bcn_admin.php:782
+msgid "The template for date breadcrumbs."
+msgstr "日付パンくず用のテンプレート。"
+
+#: breadcrumb-navxt.php:531
+msgid "Date Template"
+msgstr "日付テンプレート"
+
+#: class.bcn_admin.php:749
+msgid "display_name uses the name specified in \"Display name publicly as\" under the user profile the others correspond to options in the user profile."
+msgstr "display_nameを選ぶと、投稿者を示す文字列として、プロフィール設定で「ブログ上の表示名」に指定されている内容を使います。nick_nameを選ぶと、「ニックネーム」で指定されている内容を使います。first_nameを選ぶと、「名」で指定されている内容を使います。「last_name」を選ぶと、「姓」に指定されている内容を使います。"
+
+#: breadcrumb-navxt.php:556
+msgid "Author Display Format"
+msgstr "投稿者表示フォーマット"
+
+#: class.bcn_admin.php:743
+msgid "The template for author breadcrumbs, used only when the breadcrumb is not linked."
+msgstr "投稿者パンくずのテンプレートです。パンくずがリンクになっていないときだけ使われます。"
+
+#: breadcrumb-navxt.php:548
+msgid "Author Template (Unlinked)"
+msgstr "投稿者テンプレート (リンクなし)"
+
+#: class.bcn_admin.php:737
+msgid "The template for author breadcrumbs."
+msgstr "投稿者パンくずのテンプレートです。"
+
+#: breadcrumb-navxt.php:542
+msgid "Author Template"
+msgstr "投稿者テンプレート"
+
+#: class.bcn_admin.php:730
+msgid "Author Archives"
+msgstr "投稿者アーカイブ"
+
+#: class.bcn_admin.php:729 class.bcn_admin.php:775
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: class.bcn_admin.php:729
+msgid "The settings for author and date archives, searches, and 404 pages are located under this tab."
+msgstr "投稿者アーカイブ、日付アーカイブ、検索結果ページ、404ページ、その他もろもろの設定を行うタブです。"
+
+#: class.bcn_admin.php:693
+msgid "Taxonomies"
+msgstr "タクソノミー"
+
+#: class.bcn_admin.php:693
+msgid "The settings for all taxonomies (including Categories, Tags, and custom taxonomies) are located under this tab."
+msgstr "各タクソノミー (カテゴリー、タグ、カスタムタクソノミー) の設定を行うタブです。"
+
+#: class.bcn_admin.php:672
+msgid "The hierarchy which the breadcrumb trail will show."
+msgstr "パンくずリストが表示する階層です。"
+
+#. translators: %s: Singular name for the CPT
+#: class.bcn_admin.php:646
+msgid "%s Hierarchy"
+msgstr "%s階層"
+
+#. translators: %s: Singular name for the CPT
+#: class.bcn_admin.php:625
+msgid "Show the hierarchy (specified below) leading to a %s in the breadcrumb trail."
+msgstr "パンくずリストで、%sを、下記の設定に基づいて階層化して表示します。"
+
+#. translators: %s: The singular name of the post type
+#: breadcrumb-navxt.php:481
+msgid "%s Hierarchy Display"
+msgstr "%s階層表示"
+
+#. translators: %s: Post type singlar name
+#: class.bcn_admin.php:609
+msgid "Show the breadcrumb for the %s post type archives in the breadcrumb trail."
+msgstr "パンくずリストに、%sアーカイブのパンくずを表示します。"
+
+#. translators: %s: The singular name of the post type
+#: breadcrumb-navxt.php:414
+msgid "%s Archive Display"
+msgstr "%sアーカイブ表示"
+
+#: class.bcn_admin.php:592 class.bcn_admin.php:762
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; 選択 &mdash;"
+
+#. translators: %s: The singular name of the post type
+#. translators: %s: Singular name for the CPT
+#: breadcrumb-navxt.php:400 class.bcn_admin.php:584
+msgid "%s Root Page"
+msgstr "%sルートページ"
+
+#. translators: %s: Singular name for the CPT
+#. translators: %s: Taxonomy name
+#: class.bcn_admin.php:576 class.bcn_admin.php:720
+msgid "The template for %s breadcrumbs, used only when the breadcrumb is not linked."
+msgstr "%sパンくず用テンプレートです。パンくずがリンクになっていない場合だけ使われます。"
+
+#. translators: %s: The singular name of the post type
+#. translators: %s: The singular name of the taxonomy
+#: breadcrumb-navxt.php:382 breadcrumb-navxt.php:504
+msgid "%s Template (Unlinked)"
+msgstr "%sテンプレート(リンクなし)"
+
+#. translators: %s: Singular name for the CPT
+#. translators: %s: Taxonomy name
+#: class.bcn_admin.php:569 class.bcn_admin.php:713
+msgid "The template for %s breadcrumbs."
+msgstr "%sパンくず用のテンプレートです。"
+
+#. translators: %s: The singular name of the post type
+#. translators: %s: The singular name of the taxonomy
+#: breadcrumb-navxt.php:377 breadcrumb-navxt.php:499
+msgid "%s Template"
+msgstr "%sテンプレート"
+
+#: class.bcn_admin.php:676
+msgid "The hierarchy which the breadcrumb trail will show. Note that the \"Post Parent\" option may require an additional plugin to behave as expected since this is a non-hierarchical post type."
+msgstr "パンくずリストを階層表示するとき階層化の基準として使われるものを上記から選択します。\"親投稿\"オプションを使用するには追加のプラグインが必要です。追加のプラグインをインストールしていない通常の状態では、\"投稿\"は階層性を持たないからです。"
+
+#: class.bcn_admin.php:651
+msgid "Post Parent"
+msgstr "親投稿"
+
+#: class.bcn_admin.php:652
+msgid "Dates"
+msgstr "日付"
+
+#: class.bcn_admin.php:549
+msgid "Post Types"
+msgstr "投稿タイプ"
+
+#: class.bcn_admin.php:549
+msgid "The settings for all post types (Posts, Pages, and Custom Post Types) are located under this tab."
+msgstr "各投稿タイプ (投稿、固定ページ、カスタム投稿タイプ) の設定を行うタブです。"
+
+#: class.bcn_admin.php:541
+msgid "The template for the main site home breadcrumb, used only in multisite environments and when the breadcrumb is not linked."
+msgstr "メインサイトのホームページパンくず用のテンプレートです。マルチサイトの環境でパンくずがリンクになっていない場合にのみ使われます。"
+
+#: breadcrumb-navxt.php:325
+msgid "Main Site Home Template (Unlinked)"
+msgstr "メインサイトホームテンプレート (リンクなし)"
+
+#: class.bcn_admin.php:535
+msgid "The template for the main site home breadcrumb, used only in multisite environments."
+msgstr "メインサイトのホームページパンくず用のテンプレートです。マルチサイトの環境でのみ使われます。"
+
+#: breadcrumb-navxt.php:321
+msgid "Main Site Home Template"
+msgstr "メインサイトのホームページテンプレート"
+
+#: class.bcn_admin.php:527
+msgid "Place the main site home breadcrumb in the trail in an multisite setup."
+msgstr "マルチサイトで運用するとき、パンくずにメインサイトのホームを含めます。"
+
+#: breadcrumb-navxt.php:317
+msgid "Main Site Breadcrumb"
+msgstr "メインサイトのパンくず"
+
+#: class.bcn_admin.php:522
+msgid "Mainsite Breadcrumb"
+msgstr "メインサイトのパンくず"
+
+#: class.bcn_admin.php:515
+msgid "Place the blog breadcrumb in the trail."
+msgstr "ブログを示すパンくずをパンくずリストに含めます。"
+
+#: breadcrumb-navxt.php:341 class.bcn_admin.php:510
+msgid "Blog Breadcrumb"
+msgstr "ブログを示すパンくず"
+
+#: class.bcn_admin.php:505
+msgid "The template for the home breadcrumb, used when the breadcrumb is not linked."
+msgstr "ホームを示すパンくず用テンプレートです。パンくずがリンクになっていないときだけ使われます。"
+
+#: breadcrumb-navxt.php:337
+msgid "Home Template (Unlinked)"
+msgstr "ホームページテンプレート (リンクなし)"
+
+#: class.bcn_admin.php:499
+msgid "The template for the home breadcrumb."
+msgstr "ホームを示すパンくず用テンプレート。"
+
+#: breadcrumb-navxt.php:333
+msgid "Home Template"
+msgstr "ホームページテンプレート"
+
+#: class.bcn_admin.php:491
+msgid "Place the home breadcrumb in the trail."
+msgstr "パンくずにホームページを含める。"
+
+#: breadcrumb-navxt.php:329 class.bcn_admin.php:486
+msgid "Home Breadcrumb"
+msgstr "ホームページパンくず"
+
+#: class.bcn_admin.php:481
+msgid "The template for paged breadcrumbs."
+msgstr "分割ページパンくず用のテンプレート。"
+
+#: class.bcn_admin.php:475
+msgid "Indicates that the user is on a page other than the first of a paginated archive or post."
+msgstr "複数ページにわたる投稿一覧やアーカイブ記事一覧の2ページ目以降を閲覧中であることを示します。"
+
+#: class.bcn_admin.php:467
+msgid "Yes"
+msgstr "はい"
+
+#: breadcrumb-navxt.php:355
+msgid "Link Current Item"
+msgstr "現在の項目にリンク"
+
+#: class.bcn_admin.php:462
+msgid "Current Item"
+msgstr "現在の項目"
+
+#: class.bcn_admin.php:458
+msgid "Placed in between each breadcrumb."
+msgstr "各パンくずの間に配置されます。"
+
+#: breadcrumb-navxt.php:345
+msgid "Breadcrumb Separator"
+msgstr "パンくずの区切り"
+
+#: class.bcn_admin.php:454
+msgid "A collection of settings most likely to be modified are located under this tab."
+msgstr "よく変更される項目の設定を行うタブです。"
+
+#: class.bcn_admin.php:66
+msgid "Breadcrumb NavXT Settings"
+msgstr "Breadcrumb NavXT 設定"
+
+#: class.bcn_admin.php:285
+msgid "Go to the guide on trimming breadcrumb title lengths with CSS"
+msgstr "パンくずタイトルの長さをCSSでトリミングする方法のガイドへ移動する。"
+
+#: class.bcn_admin.php:269 class.bcn_network_admin.php:188
+msgid "Warning: No BCN_SETTINGS_* define statement found, defaulting to BCN_SETTINGS_USE_LOCAL."
+msgstr "警告: BCN_SETTINGS_* の定義が見つかりません。BCN_SETTINGS_USE_LOCAL を使用します。"
+
+#: class.bcn_admin.php:260 class.bcn_admin.php:264
+msgid "Warning: Your network settings may override any settings set in this page."
+msgstr "警告: お使いのネットワーク設定が、このページで行われた設定をすべて上書きする可能性があります。"
+
+#: class.bcn_admin.php:256
+msgid "Warning: Your network settings will override any settings set in this page."
+msgstr "警告: お使いのネットワーク設定は、このページで行われた設定をすべて上書きします。"
+
+#: class.bcn_admin.php:238 includes/adminKit/class-mtekk_adminkit.php:1159
+msgid "Reset"
+msgstr "リセット"
+
+#: class.bcn_admin.php:237 includes/adminKit/class-mtekk_adminkit.php:1158
+msgid "Export"
+msgstr "書き出し"
+
+#: class.bcn_admin.php:236 includes/adminKit/class-mtekk_adminkit.php:1157
+msgid "Import"
+msgstr "インポート"
+
+#: class.bcn_admin.php:213
+msgid "Import/Export/Reset"
+msgstr "インポート/エクスポート/リセット"
+
+#: class.bcn_admin.php:207
+msgid "Styling"
+msgstr "スタイル"
+
+#: class.bcn_admin.php:195
+msgid "Using the code from the Quick Start section above, the following CSS can be used as base for styling your breadcrumb trail."
+msgstr "上記のクイックスタートのセクションを使ったら、以下のCSSをパンくずリストのスタイル付けの基礎として利用できます。"
+
+#: class.bcn_admin.php:192
+msgid "Quick Start"
+msgstr "クイックスタート"
+
+#: class.bcn_admin.php:183
+msgid "Breadcrumb trail in list form"
+msgstr "パンくずをリスト形式にする"
+
+#: class.bcn_admin.php:177
+msgid "Breadcrumb trail with separators"
+msgstr "パンくずを区切り文字で区切る"
+
+#: class.bcn_admin.php:176
+msgid "For the settings on this page to take effect, you must either use the included Breadcrumb NavXT widget, or place either of the code sections below into your theme."
+msgstr "このページの設定を反映するには、Breadcrumb NavXTウィジェットを設置するか、以下のコードのどちらかの設置が必要です。"
+
+#: class.bcn_admin.php:173 class.bcn_admin.php:454 class.bcn_admin.php:455
+msgid "General"
+msgstr "一般"
+
+#: class.bcn_admin.php:167
+msgid "Go to the Breadcrumb NavXT translation project."
+msgstr "Breadcrumb NavXT の翻訳プロジェクトへ移動する。"
+
+#: class.bcn_admin.php:164
+msgid "Go to PayPal to give a donation to Breadcrumb NavXT."
+msgstr "PayPal で Breadcrumb NavXT へ寄付する。"
+
+#: class.bcn_admin.php:166
+msgid "Love Breadcrumb NavXT and want to help development? Consider buying the author a beer."
+msgstr "Breadcrumb NavXT が気に入り、開発を援助したいと思われた場合は、作者にビールをおごってみませんか。"
+
+#: class.bcn_admin.php:163
+msgid "Giving Back"
+msgstr "後援"
+
+#: class.bcn_admin.php:160
+msgid "Go to the Breadcrumb NavXT support post for your version."
+msgstr "このバージョン用の Breadcrumb NavXT サポートフォーラムへ移動する。"
+
+#: class.bcn_admin.php:161
+msgid "If you think you have found a bug, please include your WordPress version and details on how to reproduce the bug."
+msgstr "もしバグを発見したと思った場合は、お使いの WordPress のバージョンとバグを再現する方法の詳細を含めてください。"
+
+#: class.bcn_admin.php:158
+msgid "Go to the Breadcrumb NavXT online documentation"
+msgstr "Breadcrumb NavXT のオンラインドキュメンテーションを表示"
+
+#: class.bcn_admin.php:156
+msgid "Go to the Breadcrumb NavXT tag archive."
+msgstr "Breadcumb NavXT のタグアーカイブへ移動する。"
+
+#: class.bcn_admin.php:155
+msgid "Resources"
+msgstr "リソース"
+
+#: class.bcn_admin.php:154
+msgid "Tips for the settings are located below select options."
+msgstr "設定のヒントは選択オプションの下にあります。"
+
+#: includes/adminKit/class-mtekk_adminkit.php:197
+msgid "Insufficient privileges to proceed."
+msgstr "続行に必要な権限がありません。"
+
+#. translators: %1$s: User's version of PHP, %2$s: Breadcrmb NavXT minimuum PHP
+#. version
+#: breadcrumb-navxt.php:37 class.bcn_admin.php:27
+#: class.bcn_rest_controller.php:27 options_upgrade.php:27
+msgid "Your PHP version is too old, please upgrade to a newer version. Your version is %1$s, Breadcrumb NavXT requires %2$s"
+msgstr "お使いの PHP バージョンが古すぎますので、新しいバージョンにアップグレードしてください。現在のバージョンは %1$s ですが、Breadcrumb NavXT には %2$s が必要です。"

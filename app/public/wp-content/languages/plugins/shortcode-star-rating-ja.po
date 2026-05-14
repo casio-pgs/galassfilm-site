@@ -1,0 +1,80 @@
+# Translation of Plugins - Shortcode Star Rating - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Shortcode Star Rating - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-15 00:36:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Shortcode Star Rating - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.modshrink.com/"
+msgstr "http://www.modshrink.com/"
+
+#. Author of the plugin/theme
+msgid "modshrink"
+msgstr "modshrink"
+
+#. Description of the plugin/theme
+msgid "You can star rating in the article by using the shortcode. It uses the built-in icon fonts, WordPress 3.8 or higher is required."
+msgstr "ショートコードを使って記事の中で星評価を付けられます。WordPress 3.8以上が必要です."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/modshrink/shortcode-star-rating"
+msgstr "https://github.com/modshrink/shortcode-star-rating"
+
+#. Plugin Name of the plugin/theme
+msgid "Shortcode Star Rating"
+msgstr "Shortcode Star Rating"
+
+#: shortcode-star-rating.php:305
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: shortcode-star-rating.php:295
+msgid "If there is no check, 20px font size is set."
+msgstr "チェックがなければ, 20pxのフォントサイズが適用されます。"
+
+#: shortcode-star-rating.php:294
+msgid "Fit in a perent box"
+msgstr "親ボックスに合わせる"
+
+#: shortcode-star-rating.php:292
+msgid "Adjust Star Size"
+msgstr "星のサイズ調整"
+
+#: shortcode-star-rating.php:287
+msgid "Please enter in the Hex color. (Default: %s)"
+msgstr "16進数のカラーコードを入力してください。(初期値: %s)"
+
+#: shortcode-star-rating.php:284
+msgid "Star Color"
+msgstr "星の色"
+
+#: shortcode-star-rating.php:261
+msgid "Invalid HEX color code."
+msgstr "無効な16進数カラーコードです。"
+
+#: shortcode-star-rating.php:99
+msgid "Plugin <strong>deactivated</strong>."
+msgstr "プラグインを<strong>停止</strong>しました。"
+
+#: shortcode-star-rating.php:78
+msgid " Deactivate Now"
+msgstr "今すぐ停止する"
+
+#: shortcode-star-rating.php:77
+msgid " Your WordPress version is %s."
+msgstr "このWordPressのバージョンは %s です。"
+
+#: shortcode-star-rating.php:76
+msgid "This plugin require the <strong>WordPress 3.8 or higher</strong>."
+msgstr "このプラグインは<strong>WordPress 3.8以上</strong>が必要です。"
+
+#: shortcode-star-rating.php:74
+msgid "%s is not working."
+msgstr "%s は動作していません。"

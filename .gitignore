@@ -1,0 +1,23 @@
+# WordPress コア（変更しないため除外）
+app/public/wp-admin/
+app/public/wp-includes/
+
+# アップロードファイル（容量大のため除外）
+app/public/wp-content/uploads/
+
+# キャッシュ・ログ
+app/public/wp-content/cache/
+logs/
+
+# WordPress設定（DB情報含むため除外）
+app/public/wp-config.php
+
+# Local by Flywheel
+conf/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 作業フォルダ
+ガラスフィルムサイト\ PHPバージョンアップ案件/

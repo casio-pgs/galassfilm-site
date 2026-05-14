@@ -1,0 +1,304 @@
+# Translation of Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-01-16 13:57:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Rollback &#8211; Rollback Plugins and Themes - Stable (latest release)\n"
+
+#: src/PluginSetup/PluginMeta.php:76
+msgid "Go Pro!"
+msgstr "プロ版へ !"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:146
+msgid "View our troubleshooting guide"
+msgstr "トラブルシューティングガイドを見る"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:144
+msgid "Need help with your rollback?"
+msgstr "ロールバックに関してサポートが必要ですか ?"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:136
+msgid "Learn more"
+msgstr "さらに詳しく"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:133
+msgid "Upgrade Now"
+msgstr "いますぐアップグレード"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:108
+msgid "Take your rollback management to the next level with professional features designed for serious WordPress sites."
+msgstr "本格的な WordPress サイト向けに設計されたプロフェッショナル機能を使用して、ロールバック管理を次のレベルに引き上げます。"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:89
+msgid "Test key functionality on your site to ensure everything works as expected"
+msgstr "サイト上の主要な機能をテストして、すべてが期待どおりに動作することを確認します"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:83
+msgid "If you rolled back due to an error message, review your error logs to confirm it's resolved"
+msgstr "エラーメッセージのためにロールバックした場合は、エラーログを確認して解決されていることを確認してください。"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:77
+msgid "Check your website to verify the rollback resolved any visual or functional issues"
+msgstr "サイトをチェックして、ロールバックによって視覚的または機能的な問題が解決されたかどうかを確認してください。"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:73
+msgid "What's next?"
+msgstr "次は ?"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:54
+msgid "Get expert help when you need it most"
+msgstr "最も必要なときに専門家のサポートを受けられます"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:53
+msgid "Priority Support"
+msgstr "優先サポート"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:49
+msgid "Preserve current versions of premium assets before updates"
+msgstr "更新前にプレミアムアセットの現在のバージョンを保存"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:44
+msgid "Track every rollback with comprehensive logs and notes"
+msgstr "包括的なログとメモですべてのロールバックを追跡します"
+
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:43
+msgid "Detailed Activity Logs"
+msgstr "詳細なアクティビティログ"
+
+#. translators: 1: Asset name 2: Asset version
+#: build/tools.js:24
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:35
+msgid "%1$s has been successfully rolled back to version %2$s."
+msgstr "%1$s はバージョン %2$s に正常にロールバックされました。"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/ThemeList.jsx:21
+msgid "Select a theme below to rollback to a previous version."
+msgstr "以前のバージョンにロールバックするには、以下のテーマを選択してください。"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/ThemeList.jsx:20
+msgid "Themes"
+msgstr "テーマ"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:78
+msgid "These versions would be available for rollback with WP Rollback Pro:"
+msgstr "以下のバージョンは、WP Rollback プロ版でロールバックできます。"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:76
+msgid "Available Versions (Pro Feature)"
+msgstr "利用可能なバージョン (プロ版機能)"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:66
+msgid "is not available on WordPress.org and requires WP Rollback Pro for version control."
+msgstr "こちらは WordPress.org では利用できず、バージョン管理には WP Rollback プロ版が必要です。"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:54
+msgid "This premium asset requires WP Rollback Pro for safe version rollbacks."
+msgstr "このプレミアムアセットを安全にロールバックするには、WP Rollback プロ版が必要です。"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:52
+msgid "Unlock Premium Rollbacks"
+msgstr "プレミアムロールバックのロックを解除"
+
+#: build/tools.js:23 src/Rollbacks/resources/pages/Rollbacks.jsx:39
+msgid "Error"
+msgstr "エラー"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:123
+msgid "Learn More About Pro Features"
+msgstr "プロ版機能の詳細を見る"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:116
+msgid "Go Back"
+msgstr "戻る"
+
+#: build/tools.js:23 build/tools.js:24
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:113
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:104
+msgid "Upgrade to WP Rollback Pro"
+msgstr "WP Rollback プロ版にアップグレード"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:94
+msgid "Try WP Rollback Pro risk-free. If you're not completely satisfied, get your money back within 30 days."
+msgstr "WP Rollback プロ版をリスクなしでお試しください。ご満足いただけない場合は、30日以内であれば返金いたします。"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:92
+msgid "30-Day Money-Back Guarantee"
+msgstr "30日間返金保証"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:62
+msgid "Why Upgrade to WP Rollback Pro?"
+msgstr "WP Rollback プロ版にアップグレードする理由は ?"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:52
+msgid "Complete audit trail of all rollbacks with timestamps, user tracking, and detailed logs."
+msgstr "タイムスタンプ、ユーザー追跡、詳細なログを含むすべてのロールバックの完全な監査証跡。"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:51
+msgid "Advanced Activity Logging"
+msgstr "高度なアクティビティログ"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:44
+msgid "Add detailed notes to each rollback for better team coordination and change tracking."
+msgstr "チームの調整と変更履歴を向上させるために、各ロールバックに詳細なメモを追加。"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:43
+msgid "Rollback Notes & Documentation"
+msgstr "Rollback の注意事項とドキュメント"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:36
+msgid "For premium assets, creates a zip archive of the current version and stores the archive."
+msgstr "プレミアムアセットの場合は、現在のバージョンを zip アーカイブとして作成し、アーカイブを保存します。"
+
+#: build/tools.js:23 build/tools.js:24
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:35
+#: src/Rollbacks/resources/modals/Templates/FreeCompleteTemplate.jsx:48
+msgid "Version Preservation"
+msgstr "バージョンの保持"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:28
+msgid "Roll back any premium plugin or theme from any marketplace - not just WordPress.org."
+msgstr "WordPress.org に限らず、あらゆるマーケットプレイスのプレミアムプラグインやテーマをロールバックできます。"
+
+#: build/tools.js:23
+#: src/Rollbacks/resources/components/PremiumRollbackInlineUpsell.jsx:27
+msgid "Premium Plugin & Theme Rollbacks"
+msgstr "プレミアムプラグインとテーマのロールバック"
+
+#: build/tools.js:22 src/Rollbacks/resources/pages/PluginList.jsx:22
+msgid "Select a plugin below to rollback to a previous version."
+msgstr "以前のバージョンにロールバックするには、以下のプラグインを選択してください。"
+
+#: build/tools.js:22 src/Rollbacks/resources/pages/PluginList.jsx:21
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:81
+msgid "Get complete control over every plugin on your site with automated backups, rollback notes for your team, and support for premium plugins from any marketplace."
+msgstr "自動バックアップ、チーム向けのロールバックメモ、あらゆるマーケットプレイスのプレミアムプラグインの対応により、サイト上のすべてのプラグインを完全に管理できます。"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:79
+msgid "The Safest Way to Rollback Premium Plugins & Themes"
+msgstr "プレミアムプラグインとテーマをロールバックする最も安全な方法"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:71
+msgid "Rollback a Theme"
+msgstr "テーマをロールバック"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:56
+msgid "Theme Version Rollback"
+msgstr "テーマのバージョンをロールバック"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:48
+msgid "Rollback a Plugin"
+msgstr "プラグインをロールバック"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:36
+#: src/Rollbacks/resources/pages/Dashboard.jsx:59
+msgid "Revert any WordPress.org plugin to a previous version with just a few clicks. Choose the plugin and version you'd like to restore."
+msgstr "WordPress.org の任意のプラグインを数クリックで以前のバージョンに戻すことができます。復元したいプラグインとバージョンを選択してください。"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:33
+msgid "Plugin Version Rollback"
+msgstr "プラグインバージョンをロールバック"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:21
+msgid "With WP Rollback you can go back to a previous WordPress.org plugin or theme version with ease. Which action would you like to perform today?"
+msgstr "WP Rollback を使えば、WordPress.org のプラグインやテーマを以前のバージョンに簡単に戻すことができます。今日はどのアクションを実行しますか？"
+
+#: build/tools.js:1 src/Rollbacks/resources/pages/Dashboard.jsx:19
+msgid "Rollback a Plugin or Theme"
+msgstr "プラグインまたはテーマをロールバック"
+
+#: build/tools.js:1 build/tools.js:24
+#: src/Rollbacks/resources/layout/Header.jsx:30
+#: src/Rollbacks/resources/modals/registerTemplates.js:38
+#: src/Rollbacks/resources/pages/Dashboard.jsx:91
+msgid "Upgrade to Pro"
+msgstr "プロ版にアップグレード"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:92
+msgid "Validating package integrity…"
+msgstr "パッケージの整合性を検証中…"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:63
+msgid "Basic validation complete. 🔒 WP Rollback Pro includes advanced package integrity scanning. Upgrade at wprollback.com/pricing"
+msgstr "基本的な検証が完了しました。🔒 WP Rollback プロ版には、高度なパッケージ整合性スキャン機能が含まれています。wprollback.com/pricing でアップグレードできます。"
+
+#: src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:57
+msgid "Package not found for rollback."
+msgstr "ロールバック用のパッケージが見つかりません。"
+
+#: src/Rollbacks/PluginRollback.php:63
+msgid "The requested version is not available."
+msgstr "要求されたバージョンは利用できません。"
+
+#: src/Rollbacks/PluginRollback.php:55
+msgid "Cannot rollback to the same version."
+msgstr "同じバージョンにロールバックできません。"
+
+#: src/Rollbacks/PluginRollback.php:47
+msgid "Invalid version number provided."
+msgstr "無効なバージョン番号が指定されました。"
+
+#: src/Rollbacks/PluginRollback.php:40
+msgid "You do not have permission to perform rollbacks."
+msgstr "ロールバックを実行する権限がありません。"
+
+#: src/PluginSetup/PluginMeta.php:62 build/tools.js:1
+#: src/Rollbacks/resources/layout/Header.jsx:21
+msgid "Support"
+msgstr "サポート"
+
+#: src/PluginSetup/PluginMeta.php:48 build/tools.js:1
+#: src/Rollbacks/resources/layout/Header.jsx:18
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp-rollback.php
+msgid "https://wprollback.com/"
+msgstr "https://wprollback.com/"
+
+#. Description of the plugin
+#: wp-rollback.php
+msgid "Rollback (or forward) any WordPress.org plugin, theme or block like a boss."
+msgstr "WordPress.org のプラグインやテーマをボスのようにロールバック (または更新) できます。"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: wp-rollback.php src/Rollbacks/Actions/RegisterAdminMenu.php:28
+#: src/Rollbacks/Actions/RegisterAdminMenu.php:36
+msgid "WP Rollback"
+msgstr "WP Rollback"

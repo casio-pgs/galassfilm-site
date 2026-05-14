@@ -1,0 +1,504 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Comments Fields Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Mar 02 2017 17:14:05 GMT+0900 (東京 (標準時))\n"
+"PO-Revision-Date: 2017-03-02 23:10+0900\n"
+"Last-Translator: hirapapa <hana_kappa_kokeyan@yahoo.co.jp>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Loco-Target-Locale: ja_JP\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/inputs/input.checkbox.php:24
+msgid "Checkbox Input"
+msgstr "チェックボックス"
+
+#: classes/inputs/input.checkbox.php:25
+msgid "regular checkbox input"
+msgstr ""
+
+#: classes/inputs/input.checkbox.php:38 /classes/inputs/input.text.php:38
+#: classes/inputs/input.radio.php:38 /classes/inputs/input.select.php:38
+#: classes/inputs/input.file.php:56
+msgid "Title"
+msgstr "タイトル"
+
+#: classes/inputs/input.checkbox.php:39 /classes/inputs/input.text.php:39
+#: classes/inputs/input.radio.php:39 /classes/inputs/input.select.php:39
+#: classes/inputs/input.file.php:57
+msgid "It will be shown as field label"
+msgstr "表示するフィールドのラベルを設定してください"
+
+#: classes/inputs/input.checkbox.php:43 /classes/inputs/input.text.php:43
+#: classes/inputs/input.radio.php:43 /classes/inputs/input.select.php:43
+#: classes/inputs/input.file.php:61
+msgid "Data name"
+msgstr "メタキー"
+
+#: classes/inputs/input.checkbox.php:44 /classes/inputs/input.text.php:44
+#: classes/inputs/input.radio.php:44 /classes/inputs/input.select.php:44
+#: classes/inputs/input.file.php:62
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into body "
+"email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+"必須設定項目：他と競合のない名前を設定します（半角英数字と_(アンダーバー)のみ使用"
+"可）。"
+
+#: classes/inputs/input.checkbox.php:48 /classes/inputs/input.text.php:48
+#: classes/inputs/input.radio.php:48 /classes/inputs/input.select.php:48
+#: classes/inputs/input.file.php:66
+msgid "Description"
+msgstr "説明"
+
+#: classes/inputs/input.checkbox.php:49 /classes/inputs/input.text.php:49
+#: classes/inputs/input.radio.php:49 /classes/inputs/input.select.php:49
+#: classes/inputs/input.file.php:67
+msgid "Small description, it will be diplay near name title."
+msgstr "入力項目に関する簡単な説明を入力します"
+
+#: classes/inputs/input.checkbox.php:53 /classes/inputs/input.text.php:53
+#: classes/inputs/input.radio.php:53 /classes/inputs/input.select.php:53
+#: classes/inputs/input.file.php:71
+msgid "Error message"
+msgstr "エラーメッセージ"
+
+#: classes/inputs/input.checkbox.php:54 /classes/inputs/input.text.php:54
+#: classes/inputs/input.radio.php:54 /classes/inputs/input.select.php:54
+#: classes/inputs/input.file.php:72
+msgid "Insert the error message for validation."
+msgstr "入力チェックでエラーが出た際のメッセージを設定します"
+
+#: classes/inputs/input.checkbox.php:58 /classes/inputs/input.radio.php:59
+#: classes/inputs/input.select.php:59
+msgid "Add options"
+msgstr "選択肢"
+
+#: classes/inputs/input.checkbox.php:59 /classes/inputs/input.radio.php:60
+#: classes/inputs/input.select.php:60
+msgid "Type each option per line"
+msgstr "選択肢を１行ごとに入力します"
+
+#: classes/inputs/input.checkbox.php:64 /classes/inputs/input.text.php:59
+#: classes/inputs/input.radio.php:70 /classes/inputs/input.select.php:70
+#: classes/inputs/input.file.php:77
+msgid "Required"
+msgstr "必須"
+
+#: classes/inputs/input.checkbox.php:65 /classes/inputs/input.text.php:60
+#: classes/inputs/input.radio.php:71 /classes/inputs/input.select.php:71
+#: classes/inputs/input.file.php:78
+msgid "Select this if it must be required."
+msgstr "チェックを入れると必須入力項目にすることができます"
+
+#: classes/inputs/input.checkbox.php:69 /classes/inputs/input.text.php:64
+#: classes/inputs/input.radio.php:76 /classes/inputs/input.select.php:76
+#: classes/inputs/input.file.php:83
+msgid "Class"
+msgstr "Class"
+
+#: classes/inputs/input.checkbox.php:70 /classes/inputs/input.text.php:65
+#: classes/inputs/input.radio.php:77 /classes/inputs/input.select.php:77
+#: classes/inputs/input.file.php:84
+msgid "Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr "classを追加できます"
+
+#: classes/inputs/input.checkbox.php:74
+msgid "Checked option(s)"
+msgstr "チェック項目"
+
+#: classes/inputs/input.checkbox.php:75
+msgid "Type option(s) name (given above) if you want already checked."
+msgstr "入力前の初期値を設定します（「選択してください」など）"
+
+#: classes/inputs/input.checkbox.php:82 /classes/inputs/input.text.php:72
+#: classes/inputs/input.radio.php:84 /classes/inputs/input.select.php:84
+#: classes/inputs/input.file.php:89
+msgid "Width"
+msgstr "幅"
+
+#: classes/inputs/input.checkbox.php:83 /classes/inputs/input.text.php:73
+#: classes/inputs/input.radio.php:85 /classes/inputs/input.select.php:85
+msgid "Select column for this field (12 Columns Grid)"
+msgstr "このフィールドの列数を選択します（１２カラムグリッド）"
+
+#: classes/inputs/input.text.php:24
+msgid "Text Input"
+msgstr "テキスト項目"
+
+#: classes/inputs/input.text.php:25
+msgid "regular text input"
+msgstr ""
+
+#: classes/inputs/input.radio.php:24
+msgid "Radio Input"
+msgstr "ラジオボタン"
+
+#: classes/inputs/input.radio.php:25
+msgid "regular radio input"
+msgstr ""
+
+#: classes/inputs/input.radio.php:64 /classes/inputs/input.select.php:64
+msgid "Selected option"
+msgstr ""
+
+#: classes/inputs/input.radio.php:65
+msgid "Type option name (given above) if you want already radioed."
+msgstr ""
+
+#: classes/inputs/input.select.php:24
+msgid "Select-box Input"
+msgstr "ドロップダウンリスト"
+
+#: classes/inputs/input.select.php:25
+msgid "regular select-box input"
+msgstr ""
+
+#: classes/inputs/input.select.php:65
+msgid "Type option name (given above) if you want already selected."
+msgstr "入力前の初期値を設定します（「選択してください」など）"
+
+#: classes/inputs/input.select.php:106
+msgid "Select option"
+msgstr "初期値"
+
+#: classes/inputs/input.file.php:25
+msgid "File Input"
+msgstr ""
+
+#: classes/inputs/input.file.php:26
+msgid "regular file input"
+msgstr ""
+
+#: classes/inputs/input.file.php:90
+#, php-format
+msgid "Type field width in % e.g: 50%"
+msgstr ""
+
+#: classes/inputs/input.file.php:95
+msgid "Drag & Drop"
+msgstr ""
+
+#: classes/inputs/input.file.php:96
+msgid "Turn drag & drop on/eff."
+msgstr ""
+
+#: classes/inputs/input.file.php:101
+msgid "Popup width"
+msgstr ""
+
+#: classes/inputs/input.file.php:102
+msgid "(if image) Popup window width in px e.g: 750"
+msgstr ""
+
+#: classes/inputs/input.file.php:107
+msgid "Popup height"
+msgstr ""
+
+#: classes/inputs/input.file.php:108
+msgid "(if image) Popup window height in px e.g: 550"
+msgstr ""
+
+#: classes/inputs/input.file.php:113
+msgid "Button label (select files)"
+msgstr ""
+
+#: classes/inputs/input.file.php:114
+msgid "Type button label e.g: Select Photos"
+msgstr ""
+
+#: classes/inputs/input.file.php:120
+msgid "Button class"
+msgstr ""
+
+#: classes/inputs/input.file.php:121
+msgid "Type class for both (select, upload) buttons"
+msgstr ""
+
+#: classes/inputs/input.file.php:125
+msgid "Files allowed"
+msgstr ""
+
+#: classes/inputs/input.file.php:126
+msgid "Type number of files allowed per upload by user, e.g: 3"
+msgstr ""
+
+#: classes/inputs/input.file.php:130
+msgid "File types"
+msgstr "ファイルタイプ"
+
+#: classes/inputs/input.file.php:131
+msgid "File types allowed seperated by comma, e.g: jpg,pdf,zip"
+msgstr "File types allowed seperated by comma, e.g: jpg,pdf,zip"
+
+#: classes/inputs/input.file.php:136
+msgid "File size"
+msgstr "ファイルサイズ"
+
+#: classes/inputs/input.file.php:137
+msgid "Type size with units in kb|mb per file uploaded by user, e.g: 3mb"
+msgstr "Type size with units in kb|mb per file uploaded by user, e.g: 3mb"
+
+#: classes/inputs/input.file.php:180
+msgid "Enable conditional logic"
+msgstr "Enable conditional logic"
+
+#: classes/inputs/input.file.php:181 /classes/inputs/input.file.php:186
+msgid "Tick it to turn conditional logic to work below"
+msgstr "Tick it to turn conditional logic to work below"
+
+#: classes/inputs/input.file.php:185
+msgid "Conditions"
+msgstr "Conditions"
+
+#: classes/inputs/input.file.php:212
+msgid "Drag file(s) in this box"
+msgstr "Drag file(s) in this box"
+
+#: classes/inputs/input.file.php:214
+msgid "Drag file(s) or directory in this box"
+msgstr "Drag file(s) or directory in this box"
+
+#: classes/inputs/input.file.php:270
+msgid "are you sure to delete this file?"
+msgstr "このファイルを本当に削除しますか？"
+
+#: classes/admin.class.php:122 /classes/admin.class.php:123 /classes/admin.class.
+#: php:132 /classes/admin.class.php:133 /classes/plugin.class.php:228
+#: classes/plugin.class.php:265 /classes/plugin.class.php:290 /classes/plugin.
+#: class.php:300 /templates/render.comment.meta.php:37
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: classes/plugin.class.php:226
+#, php-format
+msgid "%s is a required field"
+msgstr "%sは必須入力項目です"
+
+#: classes/plugin.class.php:245
+msgid "Comment Meta"
+msgstr "コメントメタ"
+
+#: classes/plugin.class.php:299
+#, php-format
+msgid "%s: "
+msgstr "%s: "
+
+#: classes/plugin.class.php:350
+msgid "All options are updated"
+msgstr "すべてのオプションは更新されました"
+
+#: classes/plugin.class.php:366
+msgid "Form added successfully"
+msgstr "フォームを追加しました"
+
+#. Author of the plugin
+msgid "Najeeb Ahmad"
+msgstr "Najeeb Ahmad"
+
+#: templates/admin/settings.php:197
+msgid "Save settings"
+msgstr "設定を保存"
+
+#: templates/admin/get-addon.php:7
+msgid "Best Photo Editing Tool"
+msgstr "Best Photo Editing Tool"
+
+#: templates/admin/get-addon.php:8
+msgid ""
+"This plugin can be used as best Photo Editing Tool to allow your users to upload "
+"and Edit Photos online using world's best Photo Editor 'Aviary'. There is an Add-"
+"on for this"
+msgstr ""
+"This plugin can be used as best Photo Editing Tool to allow your users to upload "
+"and Edit Photos online using world's best Photo Editor 'Aviary'. There is an Add-"
+"on for this"
+
+#: templates/admin/get-addon.php:9
+msgid "What is Aviary?"
+msgstr "What is Aviary?"
+
+#: templates/admin/get-addon.php:10
+msgid "See Demo"
+msgstr "デモを見る"
+
+#: templates/admin/get-addon.php:11
+msgid "Get Pro + Addon"
+msgstr "Get Pro + Addon"
+
+#: templates/admin/options.php:4
+msgid "Comment Heading"
+msgstr "コメントヘッダー"
+
+#: templates/admin/options.php:5
+msgid "Heading will appear before meta, leave blank for none"
+msgstr ""
+"追加したコメント項目の一番上に表示するタイトルを入力します（標準のコメント欄のテキ"
+"ストではありません）"
+
+#: templates/admin/options.php:11
+msgid "Post types"
+msgstr "投稿タイプ"
+
+#: templates/admin/options.php:12
+msgid "Custom post types separated by commas, leave blank for only posts"
+msgstr ""
+"表示するカスタム投稿タイプを「,(カンマ)」区切りで入力してください。空欄の場合は投稿"
+"のみが適用されます"
+
+#: templates/admin/options.php:38
+msgid "General Settings"
+msgstr "基本設定"
+
+#: templates/admin/options.php:40
+msgid "General settings"
+msgstr "基本設定"
+
+#: templates/admin/options.php:45
+msgid "Comment Fields"
+msgstr "コメント欄の追加項目"
+
+#: templates/admin/options.php:47
+msgid "More field can be attached to Comments"
+msgstr "コメント欄に項目を追加できます"
+
+#: templates/admin/options.php:52
+msgid "PRO Version"
+msgstr "PRO Version"
+
+#: templates/admin/pro.php:7
+msgid "More Input Fields in PRO"
+msgstr "More Input Fields in PRO"
+
+#: templates/admin/pro.php:8
+msgid ""
+"12 Different types of input fields available in PRO version. Specially Image/File "
+"attachment feature."
+msgstr ""
+"12 Different types of input fields available in PRO version. Specially Image/File "
+"attachment feature."
+
+#: templates/admin/pro.php:9
+msgid "More | Screenshot | Purcahse $25.00"
+msgstr "More | Screenshot | Purcahse $25.00"
+
+#: templates/admin/file-meta.php:115
+msgid "File meta settings"
+msgstr "メタ設定"
+
+#: templates/admin/file-meta.php:127
+msgid "select input type below and drag it on right side. Then set more options"
+msgstr ""
+"追加したいコンテンツを右画面へドラッグしてください。その後設定オプションが表示され"
+"ます。"
+
+#: templates/admin/file-meta.php:164
+msgid "Drage form fields here"
+msgstr "左の部品をここへドラッグして項目を追加します"
+
+#: templates/admin/file-meta.php:166
+msgid "Collapse all"
+msgstr "すべて閉じる（設定に影響はありません）"
+
+#: templates/admin/file-meta.php:168
+msgid "Expand all"
+msgstr "すべて表示"
+
+#: templates/admin/file-meta.php:180
+msgid "Save all changes"
+msgstr "全ての変更を保存"
+
+#: templates/admin/file-meta.php:199
+msgid "Are you sure?"
+msgstr "よろしいですか？"
+
+#: templates/admin/file-meta.php:203
+msgid "Are you sure to remove this input field?"
+msgstr "この入力フィールドを本当に削除しますか？"
+
+#: templates/admin/file-meta.php:278 /templates/admin/file-meta.php:286
+msgid "option"
+msgstr "オプション"
+
+#: templates/admin/file-meta.php:279 /templates/admin/file-meta.php:287
+msgid "price (if any)"
+msgstr "価格"
+
+#: templates/admin/file-meta.php:328 /templates/admin/file-meta.php:379
+msgid "Show"
+msgstr "表示"
+
+#: templates/admin/file-meta.php:329 /templates/admin/file-meta.php:380
+msgid "Hide"
+msgstr "非表示"
+
+#: templates/admin/file-meta.php:333
+msgid "only if"
+msgstr "のみ"
+
+#: templates/admin/file-meta.php:339 /templates/admin/file-meta.php:384
+msgid "All"
+msgstr "すべて"
+
+#: templates/admin/file-meta.php:340 /templates/admin/file-meta.php:385
+msgid "Any"
+msgstr "すべて"
+
+#: templates/admin/file-meta.php:343 /templates/admin/file-meta.php:388
+msgid " of the following matches"
+msgstr "マッチしたもの"
+
+#: templates/admin/file-meta.php:351 /templates/admin/file-meta.php:392
+msgid "Rule # "
+msgstr "ルール#"
+
+#: templates/admin/file-meta.php:362 /templates/admin/file-meta.php:398
+msgid "is"
+msgstr "は"
+
+#: templates/admin/file-meta.php:363 /templates/admin/file-meta.php:399
+msgid "not"
+msgstr "ない"
+
+#: templates/admin/file-meta.php:364 /templates/admin/file-meta.php:400
+msgid "greater then"
+msgstr "より大きい"
+
+#: templates/admin/file-meta.php:365 /templates/admin/file-meta.php:401
+msgid "less then"
+msgstr "より小さい"
+
+#: templates/admin/file-meta.php:418
+msgid "Select/Upload Image"
+msgstr "アップロード画像を選択"
+
+#: templates/render.comment.meta.php:34
+#, php-format
+msgid "%s <span class=\"required\">*</span>"
+msgstr "%s <span class=\"required\">*</span>"
+
+#. Name of the plugin
+msgid "WP Comments Fields Manager"
+msgstr "WP Comments Fields Manager"
+
+#. URI of the plugin
+msgid "http://www.najeebmedia.com"
+msgstr "http://www.najeebmedia.com"
+
+#. Description of the plugin
+msgid "This plugin allow users to add custom fields in post comments area."
+msgstr "This plugin allow users to add custom fields in post comments area."
